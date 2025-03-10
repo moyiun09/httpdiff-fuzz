@@ -1,5 +1,5 @@
 ## httpdiff-fuzz
-基于原型系统t-reqs开发的httpdiff-fuzz用于测试HTTP协议语义不一致问题。
+基于原型系统[t-reqs](https://github.com/bahruzjabiyev/t-reqs)开发的httpdiff-fuzz用于测试HTTP协议语义不一致问题。
 ### 系统整体的架构
 ![系统架构图](./bg_zh.png)
 
@@ -39,4 +39,9 @@ python 搭建系统运行环境requirements
 #### 手工分析语义不一致问题(待完善)
 从差异信息中可以判定服务器处理的行为是否存在问题，但目前没有一个良好的分类方法，从差异信息中找到具体的语义不一致问题。
 定位特定字段的差异，如Content-Length或Transfer-Encoding首部处理的差异找到可能的请求走私问题。
-后续将进一步改善。
+后续将进一步改善
+
+
+### 开源许可
+httpdiff-fuzz遵守MIT开源协议
+
