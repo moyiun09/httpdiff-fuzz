@@ -1,0 +1,25 @@
+{
+    "<start>": [
+        "<request>"
+    ],
+    "<request>": [
+        "<request-line><newline><base><header><newline><request-body>"
+    ],
+    "<request-line>": [
+        "GET /index.php HTTP/1.1"
+    ],
+    "<base>": [
+        "Host: _HOST_\r\nX-Request-ID: _REQUEST_ID_\r\n"
+    ],
+    "<newline>":[
+        "\r\n"
+    ],
+    "<header>": [
+        "__HEADER_NAME__: __HEADER_VALUE__\r\n"
+    ],
+    "<request-body>": [
+        "",
+        "12345678901",
+        "1\r\na\r\n0\r\n"
+    ]
+}

@@ -1,0 +1,160 @@
+{
+    "<start>": [
+        "<request>"
+    ],
+    "<request>": [
+        "<request-line><newline><header><newline><newline><request-body>"
+    ],
+    "<request-line>": [
+        "GET / HTTP/1.1",
+        "POST / HTTP/1.1",
+        "POST / HTTP/0.9",
+        "HEAD / HTTP/1.1"
+    ],
+    "<space>": [
+        " "
+    ],
+    "<colon>": [
+        ":"
+    ],
+    "<method>": [
+        "GET"
+    ],
+    "<version>": [
+        "1.1"
+    ],
+    "<protocol>": [
+        "http",
+        "HTTP",
+        "ws"
+    ],
+    "<separator>": [
+        "/",
+        ";",
+        ","
+    ],
+    "<newline>": [
+        "\r\n"
+    ],
+    "<request-body>": [
+        "\r\n",
+        "123456789",
+        "0\r\n1\r\n2\r\n",
+        "2\r\n1\r\n0\r\n",
+        "1;tailer=A\r\n0\r\n123456789"
+    ],
+    "<header>": [
+        "<Content-Length>",
+        "<Range>",
+        "<Upgrade>",
+        "<Host>",
+        "<Transfer-Encoding>",
+        "<Connection>",
+        "<Max-Forwards>",
+        "<Expect>"
+    ],
+    "<Content-Length>": [
+        "<Content-Length-name><colon><space><Content-Length-value><newline>"
+    ],
+    "<Content-Length-name>": [
+        "Content-Length"
+    ],
+    "<Range>": [
+        "<Range-name><colon><space><Range-value><newline>"
+    ],
+    "<Range-name>": [
+        "Range"
+    ],
+    "<Upgrade>": [
+        "<Upgrade-name><colon><space><Upgrade-value><newline>"
+    ],
+    "<Upgrade-name>": [
+        "Upgrade"
+    ],
+    "<Host>": [
+        "<Host-name><colon><space><Host-value><newline>"
+    ],
+    "<Host-name>": [
+        "Host"
+    ],
+    "<Transfer-Encoding>": [
+        "<Transfer-Encoding-name><colon><space><Transfer-Encoding-value><newline>"
+    ],
+    "<Transfer-Encoding-name>": [
+        "Transfer-Encoding"
+    ],
+    "<Connection>": [
+        "<Connection-name><colon><space><Connection-value><newline>"
+    ],
+    "<Connection-name>": [
+        "Connection"
+    ],
+    "<Max-Forwards>": [
+        "<Max-Forwards-name><colon><space><Max-Forwards-value><newline>"
+    ],
+    "<Max-Forwards-name>": [
+        "Max-Forwards"
+    ],
+    "<Expect>": [
+        "<Expect-name><colon><space><Expect-value><newline>"
+    ],
+    "<Expect-name>": [
+        "Expect"
+    ],
+    "<Content-Length-value>": [
+        "82",
+        "20",
+        "0"
+    ],
+    "<Range-value>": [
+        "bytes=7433802-",
+        "bytes=1234567-999999999999",
+        "bytes=900-",
+        "bytes=1020000-999999999999",
+        "bytes=0-",
+        "bytes=0-999999999999",
+        "bytes=0-99",
+        "bytes=1230000-999999999999"
+    ],
+    "<Upgrade-value>": [
+        "websocket, IRC/6.9, RTA/x11",
+        "HTTP/2.0",
+        "h2c",
+        "HTTP/3.0",
+        "connect-udp",
+        "HTTP/2.0, SHTTP/1.3, IRC/6.9, RTA/x11",
+        "connect-ip",
+        "TLS/1.0, HTTP/1.1",
+        "websocket",
+        "TLS/1.0"
+    ],
+    "<Host-value>": [
+        "*",
+        "svc.example.com",
+        "origin.example.com"
+    ],
+    "<Transfer-Encoding-value>": [
+        "chunked         + END_HEADERS",
+        "gzip, chunked",
+        "chunked"
+    ],
+    "<Connection-value>": [
+        "C-Ext",
+        "Keep-Alive",
+        "Upgrade, HTTP2-Settings",
+        "close",
+        "Meter",
+        "Upgrade",
+        "meter",
+        "C-Man, 14-Credentials",
+        "keep-alive",
+        "upgrade"
+    ],
+    "<Max-Forwards-value>": [
+        "0",
+        "10"
+    ],
+    "<Expect-value>": [
+        "100-continue"
+    ]
+}

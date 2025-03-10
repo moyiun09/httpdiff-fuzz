@@ -1,0 +1,996 @@
+{
+    "Accept": [
+        "*/*",
+        "text/*, text/plain, text/plain;format=flowed, */*",
+        "text/html, application/postscript;q=0.4, */*",
+        "application/pidf+xml,application/held+xml;q=0.5",
+        "image/gif;q=0.9, image/jpeg;q=0.8, image/png;q=1.0,",
+        "image/*",
+        "application/ohttp-keys",
+        "text/html",
+        "application/cdni; ptype=redirection-response",
+        "application/json, application/problem+json",
+        "text/html, text/plain",
+        "image/gif;q=0.9, */*;q=1.0",
+        "text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8",
+        "application/yang-data+json",
+        "application/json",
+        "image/jpeg                 + END_HEADERS",
+        "text/plain; q=0.5, text/html,",
+        "text/html, application/postscript;q=0.8, */*",
+        "text/*, text/html, text/html;level=1, */*",
+        "application/linkset+json",
+        "text/*;q=0.3, text/plain;q=0.7, text/plain;format=flowed,",
+        "text/*;q=0.3, text/html;q=0.7, text/html;level=1,",
+        "application/yang",
+        "application/things+json",
+        "text/html, text/plain, image/gif",
+        "application/link-format;q=1.0",
+        "application/held+xml",
+        "application/yang-data+xml",
+        "application/xrd+xml",
+        "audio/*; q=0.2, audio/basic",
+        "application/pem-certificate-chain",
+        "text/html:q=1.0, */*:q=0.8",
+        "text/event-stream"
+    ],
+    "User-Agent": [
+        "WuxtaWeb/2.4",
+        "curl/7.16.3 libcurl/7.16.3 OpenSSL/0.9.7l zlib/1.2.3",
+        "BazookaDotCom-ICAP-Client-Library/2.3",
+        "CERN-LineMode/2.15 libwww/2.17b3",
+        "Foo/1.0",
+        "Mozilla/4.0 (compatible; Windows NT 5.0)",
+        "ExampleBrowser/1.0",
+        "Thingio/1.0",
+        "curl/7.64.1"
+    ],
+    "Server": [
+        "Apache/0.8.4",
+        "CERN/3.0 libwww/2.17",
+        "nginx",
+        "Apache/1.3.12 (Unix)"
+    ],
+    "Memento-Datetime": [
+        "Tue, 20 Mar 2001 13:36:10 GMT"
+
+    ],
+    "Referer": [
+        "http://www.example.com/distribution/example.ext"
+    ],
+    "A-IM": [
+        "vcdiff, diffe, gzip",
+        "diffe, deflate",
+        "gzip, gdiff",
+        "vcdiff",
+        "vcdiff, diffe, gzip, range",
+        "diffe, gzip",
+        "vcdiff, gdiff",
+        "range,vcdiff",
+        "vcdiff,range",
+        "vcdiff, gdiff;q=0.3"
+    ],
+    "Host": [
+        "<whatever host we are sending the request to>",
+        "svc.example.com",
+        "origin.example.com"
+    ],
+    "Content-Length": [
+        "82",
+        "xxxx",
+        "165",
+        "61",
+        "100",
+        "62",
+        "252",
+        "92",
+        "591",
+        "53",
+        "243",
+        "182",
+        "258",
+        "12",
+        "236",
+        "17481",
+        "51",
+        "356",
+        "4883",
+        "2331785",
+        "238",
+        "14867603",
+        "1234567890987",
+        "32",
+        "152",
+        "73",
+        "1246",
+        "1241",
+        "23364",
+        "25532",
+        "3495",
+        "7433801",
+        "0"
+    ],
+    "Upgrade": [
+        "websocket, IRC/6.9, RTA/x11",
+        "HTTP/2.0",
+        "h2c",
+        "HTTP/3.0",
+        "connect-udp",
+        "HTTP/2.0, SHTTP/1.3, IRC/6.9, RTA/x11",
+        "connect-ip",
+        "TLS/1.0, HTTP/1.1",
+        "websocket",
+        "TLS/1.0"
+    ],
+    "Accept-Language": [
+        "en;q=1.0, fr;q=0.5",
+        "en, fr;q=0.5, *;q=0.9",
+        "fr, *",
+        "da, en-gb;q=0.8, en;q=0.7",
+        "en-US, en;q=0.5",
+        "en, *;q=0.9",
+        "en-gb, fr",
+        "en, mi",
+        "en",
+        "de",
+        "de-CH",
+        "en-US,en;q=0.5",
+        "en, fr",
+        "gr, en;q=0.8"
+    ],
+    "Content-Language": [
+        "mi, en",
+        "en",
+        "da",
+        "en-US"
+    ],
+    "Cookie": [
+        "PHPSESSID=298zf09hf012fh2; csrftoken=u32t4o3tb3gg43; _gat=1",
+        "$Version=\"1\"; Customer=\"WILE_E_COYOTE\";",
+        "$Version=\"1\"; Part_Number=\"Rocket_Launcher_0001\"; $Path=\"/acme\"",
+        "$Version=\"1\"; Part_Number=\"Rocket_Launcher_0001\";",
+        "SID=31d4d96e407aad42; lang=en-US",
+        "$Version=\"1\"; Customer=\"WILE_E_COYOTE\"; $Path=\"/acme\"",
+        "$Version=\"1\";",
+        "$Version=\"1\"; session_id=\"1234\",",
+        "SID=31d4d96e407aad42",
+        "ff39fk3jur@4ii0e02i"
+    ],
+    "Via": [
+        "1.0 icap-server.net (ICAP Example ReqMod Service 1.1)",
+        "HTTP/1.1 GWA",
+        "1.0 ricky, 1.1 ethel, 1.1 fred, 1.0 lucy",
+        "1.1 fred",
+        "1.0 fred, 1.1 p.example.net",
+        "1.0 ricky, 1.1 mertz, 1.0 lucy",
+        "1.0 fred, 1.1 nowhere.com (Apache/1.1)",
+        "1.1 vegur",
+        "1.0 icap.example.org (ICAP Example RespMod Service 1.1)"
+    ],
+    "Location": [
+        "https://example.com/",
+        "http://repo.webdav.org/wr/157",
+        "http://www.example.com/users/f/fielding/index.html",
+        "http://repo.webdav.org/his/23/ver/15",
+        "http://example.org/blog/atom/a-day-at-the-beach.atom",
+        "/index.html"
+    ],
+    "Vary": [
+        "Prefer",
+        "*",
+        "accept-datetime, accept",
+        "Sec-CH-Prefers-Color-Scheme",
+        "accept-datetime",
+        "negotiate",
+        "Upgrade-Insecure-Requests",
+        "Sec-CH-Example",
+        "Accept-Encoding",
+        "accept-encoding, accept-language",
+        "A-IM, If-None-Match",
+        "negotiate, accept, accept-language",
+        "If-None-Match, A-IM",
+        "Viewport-Width, Width",
+        "Sec-CH-Prefers-Reduced-Transparency",
+        "Sec-CH-Prefers-Reduced-Motion",
+        "Sec-CH-Example, Sec-CH-Example-2",
+        "Opt, 16-use-transform"
+    ],
+    "Connection": [
+        "C-Ext",
+        "Keep-Alive",
+        "Upgrade, HTTP2-Settings",
+        "close",
+        "Meter",
+        "Upgrade",
+        "meter",
+        "C-Man, 14-Credentials",
+        "keep-alive",
+        "upgrade"
+    ],
+    "Content-Range": [
+        "bytes 200-1000/67589",
+        "bytes 42-1233/*",
+        "bytes 7433802-14867602/14867603",
+        "bytes 1020000-1254567/*",
+        "bytes 1000000-1234567/*",
+        "bytes 734-1233/1234",
+        "bytes 500-1233/1234",
+        "bytes 1230000-999999999999/*",
+        "bytes 0-1234567/*",
+        "bytes 42-1233/1234",
+        "bytes 0-499/1234",
+        "bytes 1010000-1244567/*",
+        "bytes */1234",
+        "bytes */47022",
+        "bytes 21010-47021/47022",
+        "bytes 500-999/1234",
+        "bytes 1230000-1234567/*"
+    ],
+    "Cache-Control": [
+        "proxy-revalidate, max-age=0",
+        "no-store, im, max-age=30",
+        "max-age=604800",
+        "max-age=30",
+        "no-store",
+        "no-cache",
+        "public, max-age=30",
+        "private, community=\"UCI\"",
+        "max-age-60",
+        "max-age=600",
+        "retain=3600",
+        "max-age=60, s-maxage=120",
+        "max-age=31536000, immutable",
+        "private, no-cache",
+        "public, max-age=60",
+        "max-age=3600",
+        "retain",
+        "must-revalidate",
+        "max-age=600, stale-if-error=1200",
+        "must-revalidate, max-age=0",
+        "max-age=0",
+        "max-age=600, stale-while-revalidate=30",
+        "max-age=60"
+    ],
+    "Content-Type": [
+        "application/PKCS7-signature",
+        "multipart/byteranges; boundary=THIS_STRING_SEPARATES",
+        "image/png",
+        "application/things+json",
+        "application/EDIFACT",
+        "application/xml",
+        "application/pem-certificate-chain",
+        "text/html; charset=iso-8859-1",
+        "application/cdni; ptype=redirection-request",
+        "text/html; charset=iso-8909-1",
+        "application/xml; charset=utf-16be",
+        "application/PKCS7-mime",
+        "image/gif",
+        "application/s-http",
+        "application/pidf+xml",
+        "application/atom+xml;type=entry;charset=\"utf-8\"",
+        "message/http",
+        "application/yang-data+json",
+        "application/linkset",
+        "text/calendar",
+        "application/example-patch",
+        "application/link-format+json",
+        "text/xml; charset=\"utf-8\"",
+        "'message/http'",
+        "application/merge-patch+json",
+        "application/xml; charset=\"utf-8\"",
+        "application/example+json",
+        "text/html;charset=utf-8",
+        "application/yang",
+        "application/javascript; charset=UTF-8",
+        "text/plain",
+        "application/xml; charset=utf-8",
+        "application/problem+json",
+        "application/secevent+jwt",
+        "application/yang-data+xml",
+        "application/x-cd-image",
+        "application/example+xml",
+        "text/xml",
+        "application/linkset+json",
+        "application/held+xml;charset=utf-8",
+        "text/plain; charset=UTF-8",
+        "application/edi-consent",
+        "application/XML",
+        "application/example",
+        "application/xrd+xml",
+        "video/h264",
+        "application/linkset+json;",
+        "text/html; charset=utf-8",
+        "application/xml; charset=utf-16",
+        "text/plain;charset=utf8",
+        "image/jpeg   ==>     - END_STREAM",
+        "image/jpeg           - END_HEADERS",
+        "multipart/report",
+        "application/held+xml",
+        "application/jose+json",
+        "application/xml; charset=iso-2022-kr",
+        "application/json",
+        "application/xml; charset=UTF-8",
+        "text/html; charset=ISO-8859-4",
+        "text/html",
+        "application/xml; charset=iso-8859-1",
+        "application/xcap-el+xml",
+        "application/cdni; ptype=redirection-response",
+        "application/resource-lists+xml",
+        "application/octet-stream",
+        "application/atom+xml;type=entry",
+        "text/html; charset=UTF-8",
+        "application/EDI-X12",
+        "application/link-format; charset=UTF-8",
+        "application/link-format",
+        "multipart/form-data;boundary=\"boundary\""
+    ],
+    "Forwarded": [
+        "for=_hidden, for=_SEVKISEK",
+        "for=192.0.2.43, for=\"[2001:db8:cafe::17]\"",
+        "for=192.0.2.43, for=\"[2001:db8:cafe::17]\", for=unknown",
+        "for=192.0.2.123;host=example.com;proto=https",
+        "for=192.0.2.60;proto=http;by=203.0.113.43",
+        "for=192.0.2.43,for=\"[2001:db8:cafe::17]\",for=unknown",
+        "for=\"[2001:db8:cafe::17]\", for=unknown",
+        "for=\"_gazonk\"",
+        "for=192.0.2.43, for=198.51.100.17",
+        "For=\"[2001:db8:cafe::17]:4711\"",
+        "for=192.0.2.43"
+    ],
+    "Access-Control-Allow-Credentials": [
+        "true"
+    ],
+    "X-Frame-Options": [
+        "SAMEORIGIN",
+        "DENY",
+        "ALLOW-FROM https://example.com/"
+    ],
+    "DAV": [
+        "1, 2, access-control, calendar-access",
+        "bind",
+        "1, 2, 3, access-control, calendar-access,",
+        "1",
+        "version-control,checkout-in-place,version-history,workspace",
+        "1, 2, 3, access-control, extended-mkcol",
+        "1, 3",
+        "1, 2, redirectrefs"
+    ],
+    "If": [
+        "(Not <urn:uuid:181d4fae-7d8c-11d0-a765-00a0c91e6bf2>",
+        "<http://example.com/locked/member>",
+        "(<urn:uuid:e71d4fae-5dec-22d6-fea5-00a0c91e6be4>)",
+        "<http://example.com/locked/>",
+        "(<opaquelocktoken:e71d4fae-5dec-22d6-fea5-00a0c91e6be4>)",
+        "(<opaquelocktoken:fe184f2e-6eec-41d0-c765-01adc56e6bb4>)",
+        "(Not <locktoken:write1> <locktoken:write2>)",
+        "</resource1>",
+        "(<locktoken:a-write-lock-token> [\"I am an ETag\"]) ([\"I am another",
+        "<http://www.example.com/specs/>",
+        "<http://www.ics.uci.edu/users/f/fielding/index.html>",
+        "(<urn:uuid:fe184f2e-6eec-41d0-c765-01adc56e6bb4>)",
+        "</specs/rfc2518.doc> ([\"4217\"])",
+        "<http://www.foo.bar/resource1> (<locktoken:a-write-lock-token>",
+        "</specs/rfc2518.doc> (Not [\"4217\"])",
+        "(<urn:uuid:f92d4fae-7012-11ab-a765-00c0ca1f6bf9>)",
+        "<http://www.example.com/users/f/fielding/index.html>",
+        "(<urn:uuid:181d4fae-7d8c-11d0-a765-00a0c91e6bf2>",
+        "(<urn:uuid:181d4fae-7d8c-11d0-a765-00a0c91e6bf2>)",
+        "(<urn:uuid:150852e2-3847-42d5-8cbe-0f4f296f26cf>)"
+    ],
+    "Include-Referred-Token-Binding-ID": [
+        "true"
+    ],
+    "If-None-Match": [
+        "\"xyzzy\", \"r2d2xxxx\"",
+        "\"gonkyyyy;1234\", W/\"a;b;1234\"",
+        "W/\"xyzzy\"",
+        "W/\"67ab43\", \"54ed21\", \"7892dd\"",
+        "\"abc\"",
+        "\"e180ee84f0671b1\"",
+        "\"A\"",
+        "W/\"xyzzy\", W/\"r2d2xxxx\", W/\"c3piozzzz\"",
+        "\"xyzzy\"",
+        "\"123xyz\"",
+        "\"123xyz\", \"337pey\", \"489uhw\"",
+        "\"gonkyyyy\", W/\"a;b\"",
+        "\"xyzzy\", \"r2d2xxxx\", \"c3piozzzz\"",
+        "\"def\"",
+        "*",
+        "\"abcde\"",
+        "\"bfc13a64729c4290ef5b2c2730249c88ca92d82d\""
+    ],
+    "Meter": [
+        "count=1/0",
+        "max-uses=5",
+        "max-uses=10",
+        "wont-limit",
+        "max-uses=3, max-reuses=10, do-report",
+        "max-uses=3",
+        "max-uses=0",
+        "will-report-and-limit",
+        "do-report",
+        "count=NNN/MMM",
+        "max-reuses=10",
+        "max-uses=3, max-reuses=6, dont-report"
+    ],
+    "Keep-Alive": [
+        "timeout=5, max=1000"
+    ],
+    "Public-Key-Pins": [
+        "max-age=3000;",
+        "pin-sha256=\"GHI...\"; pin-sha256=\"JKL...\"",
+        "max-age=12000; pin-sha256=\"ABC...\";",
+        "max-age=2592000;"
+    ],
+    "Signature": [
+        "reqres=:C73J41GVKc+TYXbSobvZf0CmNcptRiWN+NY1Or0A36ISg6ymdRN6ZgR2QfrtopFNzqAyv+CeWrMsNbcV2Ojsgg==:",
+        "sig1=:e8UJ5wMiRaonlth5ERtE8GIiEH7Akcr493nQ07VPNo6y3qvjdKt0fo8VHO8xXDjmtYoatGYBGJVlMfIp06eVMEyNW2I4vN7XDAz7m5v1108vGzaDljrd0H8+SJ28g7bzn6h2xeL/8q+qUwahWA/JmC8aOC9iVnwbOKCc0WSrLgWQwTY6VLp42Qt7jjhYT5W7/wCvfK9A1VmHH1lJXsV873Z6hpxesd50PSmO+xaNeYvDLvVdZlhtw5PCtUYzKjHqwmaQ6DEuM8udRjYsoNqp2xZKcuCO1nKc0V3RjpqMZLuuyVbHDAbCzr0pg2d2VM/OC33JAU7meEjjaNz+d7LWPg==:",
+        "sig1=:X5spyd6CFnAG5QnDyHfqoSNICd+BUP4LYMz2Q0JXlb//4Ijpzp+kve2w4NIyqeAuM7jTDX+sNalzA8ESSaHD3A==:",
+        "sig1=:HIbjHC5rS0BYaa9v4QfD4193TORw7u9edguPh0AW3dMq9WImrlFrCGUDih47vAxi4L2YRZ3XMJc1uOKk/J0ZmZ+wcta4nKIgBkKq0rM9hs3CQyxXGxHLMCy8uqK488o+9jrptQ+xFPHK7a9sRL1IXNaagCNN3ZxJsYapFj+JXbmaI5rtAdSfSvzPuBCh+ARHBmWuNo1UzVVdHXrl8ePL4cccqlazIJdC4QEjrF+Sn4IxBQzTZsL9y9TP5FsZYzHvDqbInkTNigBcE9cKOYNFCn4D/WM7F6TNuZO9EgtzepLWcjTymlHzK7aXq6Am6sfOrpIC49yXjj3ae6HRalVc/g==:",
+        "sig1=:P0wLUszWQjoi54udOtydf9IWTfNhy+r53jGFj9XZuP4uKwxyJo1RSHi+oEF1FuX6O29d+lbxwwBao1BAgadijW+7O/PyezlTnqAOVPWx9GlyntiCiHzC87qmSQjvu1CFyFuWSjdGa3qLYYlNm7pVaJFalQiKWnUaqfT4LyttaXyoyZW84jS8gyarxAiWI97mPXU+OVM64+HVBHmnEsS+lTeIsEQo36T3NFf2CujWARPQg53r58RmpZ+J9eKR2CD6IJQvacn5A4Ix5BUAVGqlyp8JYm+S/CWJi31PNUjRRCusCVRj05NrxABNFv3r5S9IXf2fYJK+eyW4AiGVMvMcOg==:",
+        "sig1=:X5spyd6CFnAG5QnDyHfqoSNICd+BUP4LYMz2Q0JXlb//4Ijpzp+kve2w4NIyqeAuM7jTDX+sNalzA8ESSaHD3A==:, proxy_sig=:S6ZzPXSdAMOPjN/6KXfXWNO/f7V6cHm7BXYUh3YD/fRad4BCaRZxP+JH+8XY1I6+8Cy+CM5g92iHgxtRPz+MjniOaYmdkDcnL9cCpXJleXsOckpURl49GwiyUpZ10KHgOEe11sx3G2gxI8S0jnxQB+Pu68U9vVcasqOWAEObtNKKZd8tSFu7LB5YAv0RAGhB8tmpv7sFnIm9y+7X5kXQfi8NMaZaA8i2ZHwpBdg7a6CMfwnnrtflzvZdXAsD3LH2TwevU+/PBPv0B6NMNk93wUs/vfJvye+YuI87HU38lZHowtznbLVdp770I6VHR6WfgS9ddzirrswsE1w5o0LV/g==:",
+        "reqres=:dMT/A/76ehrdBTD/2Xx8QuKV6FoyzEP/I9hdzKN8LQJLNgzU4W767HK05rx1i8meNQQgQPgQp8wq2ive3tV5Ag==:"
+    ],
+    "Cache-Status": [
+        "ExampleCache; hit; ttl=376",
+        "ForwardProxyCache; fwd=uri-miss; collapsed; stored",
+        "ExampleCache; hit; detail=MEMORY",
+        "ReverseProxyCache; hit",
+        "ExampleCache; fwd=uri-miss; collapsed=?0",
+        "ExampleCache; hit",
+        "BrowserCache; fwd=uri-miss",
+        "ExampleCache; fwd=uri-miss",
+        "ExampleCache; fwd=stale; fwd-status=304",
+        "ExampleCache; hit; ttl=-412",
+        "OriginCache; hit; ttl=1100,",
+        "ExampleCache; fwd=uri-miss; collapsed"
+    ],
+    "Authorization": [
+        "Digest algorithm=MD5,nonce=\"a3086ac8\"",
+        "Mutual user=\"john\",         |--> [user DB]",
+        "Digest = algorithm=MD5,qop=auth,nonce=\"a3086ac8\"",
+        "PrivateToken token=\"abc...\"",
+        "Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==",
+        "Digest username=\"Mufasa\",",
+        "Basic dGVzdDoxMjPCow==",
+        "Basic ZGFmZnk6c2VjZXJldA==",
+        "Digest username=\"ejw\",",
+        "Digest username=\"ejw\"",
+        "Digest       username=\"Mufasa\",",
+        "Digest",
+        "Mutual sid=...,             |<-- OK"
+    ],
+    "Authentication-Control": [
+        "Basic realm=\"entrance\", no-auth=true",
+        "Basic realm=\"entrance\", logout-timeout=300",
+        "Basic realm=\"configuration\", username=\"admin\"",
+        "Digest realm=\"protected space\",",
+        "Mutual realm=\"auth-space-1\","
+    ],
+    "If-Schedule-Tag-Match": [
+        "\"12ab34-cd56ef\""
+    ],
+    "Transfer-Encoding": [
+        "chunked         + END_HEADERS",
+        "gzip, chunked",
+        "chunked"
+    ],
+    "Date": [
+        "Thu, 21 Jan 2010 00:09:40 GMT",
+        "Fri, 11 Nov 2005 09:32:12 GMT",
+        "Mon, 07 Feb 2022 00:28:05 GMT",
+        "Mon, 12 Aug 2019 10:45:54 GMT",
+        "2023-03-14"
+    ],
+    "Last-Modified": [
+        "Sat, 13 Nov 2010 03:29:00 GMT",
+        "Mon, 25 Jul 2016 04:32:39 GMT",
+        "Wed, 22 Jul 2009 19:15:56 GMT"
+    ],
+    "Accept-CH": [
+        "Width",
+        "ECT",
+        "Sec-CH-Example, Sec-CH-Example-2",
+        "Device-Memory",
+        "Downlink",
+        "Viewport-Width",
+        "Sec-CH-Prefers-Reduced-Motion",
+        "Sec-CH-UA-Platform-Version",
+        "Sec-CH-UA-Bitness",
+        "DPR",
+        "Sec-CH-UA-Full-Version",
+        "Sec-CH-UA-Arch",
+        "Viewport-Width, Width",
+        "Sec-CH-UA-Model",
+        "Sec-CH-Prefers-Reduced-Transparency",
+        "Sec-CH-UA-Full-Version-List",
+        "RTT",
+        "Sec-CH-Prefers-Color-Scheme"
+    ],
+    "Link": [
+        "</script.js>; rel=preload; as=script",
+        "<https://example.com/acme/directory>;rel=\"index\"",
+        "<http://example.com/example.ext.meta4>; rel=describedby;",
+        "<http://example.com/example.ext.p7m>; rel=describedby;"
+    ],
+    "Allow": [
+        "GET, HEAD, PUT",
+        "MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH",
+        "GET, HEAD, TRACE, PROPFIND, COPY, MOVE",
+        "GET, PUT, POST, OPTIONS, HEAD, DELETE, PATCH",
+        "GET, POST, HEAD",
+        "MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, REPORT, ACL",
+        "OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, COPY, MOVE",
+        "PROPFIND, PROPPATCH, LOCK, UNLOCK, REPORT, ACL",
+        "MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, MKREDIRECTREF",
+        "204",
+        "GET, HEAD"
+    ],
+    "Prefer": [
+        "priority=5",
+        "safe",
+        "foo; bar",
+        "Lenient",
+        "return=representation",
+        "return=minimal",
+        "respond-async, wait=10",
+        "foo; bar=\"\"",
+        "return=minimal; foo=\"some parameter\"",
+        "respond-async",
+        "foo=\"\"; bar",
+        "handling=lenient, wait=100, respond-async",
+        "handling=strict",
+        "respond-async, wait=100",
+        "handling=lenient"
+    ],
+    "Depth": [
+        "0",
+        "1",
+        "infinity"
+    ],
+    "IM": [
+        "diffe, gzip",
+        "diffe, deflate",
+        "range, vcdiff",
+        "diffe, deflate, range",
+        "vcdiff"
+    ],
+    "Range": [
+        "bytes=7433802-",
+        "bytes=1234567-999999999999",
+        "bytes=900-",
+        "bytes=1020000-999999999999",
+        "bytes=0-",
+        "bytes=0-999999999999",
+        "bytes=0-99",
+        "bytes=1230000-999999999999"
+    ],
+    "Lock-Token": [
+        "<urn:uuid:a515cfa4-5da4-22e1-f5b5-00a0451e6bf7>",
+        "<opaquelocktoken:a515cfa4-5da4-22e1-f5b5-00a0451e6bf7>",
+        "<urn:uuid:e71d4fae-5dec-22d6-fea5-00a0c91e6be4>"
+    ],
+    "From": [
+        "<sip:23ec24c5@example.com>;tag=907A953576E6",
+        "spider-admin@example.org",
+        "webmaster@w3.org",
+        "<sip:webserver@example.com>;tag=03-5gbK652_jNMr-b8-11Z_G-NsLR",
+        "<sip:12345678@example.com>",
+        "webmaster@example.org",
+        "<sip:adam@example.org>;tag=57dac993-0b5b-4f04"
+    ],
+    "Destination": [
+        "http://www.foo.bar/resource2",
+        "http://www.foo.bar/othercontainer/",
+        "http://www.example/users/f/fielding/index.html",
+        "http://www.example.com/users/f/fielding/index.html",
+        "/resource2",
+        "http://www.ics.uci.edu/users/f/fielding/index.html",
+        "/CollX/CollZ",
+        "/ws1/CollY/test",
+        "http://www.example.com/othercontainer/"
+    ],
+    "Sec-WebSocket-Key": [
+        "dGhlIHNhbXBsZSBub25jZQ=="
+    ],
+    "Accept-Post": [
+        "*/*",
+        "application/example, text/example",
+        "image/webp"
+    ],
+    "ETag": [
+        "3238e-1a3-b83be580",
+        "\"123-b\"",
+        "\"337pey\"",
+        "\"c180de84f991g8\"",
+        "\"c66c0341abd7b9346321d5470fd0ec7cc4dae713\"",
+        "\"e0023aa4f\"",
+        "\"b3a3e673be2\"",
+        "\"<strong validator>\""
+    ],
+    "Content-Security-Policy-Report-Only": [
+        "default-src https:; report-to /csp-violation-report-endpoint/"
+    ],
+    "Replay-Nonce": [
+        "lXfyFzi6238tfPQRwgfmPU",
+        "IXVHDyxIRGcTE0VSblhPzw",
+        "MYAuvOpaoIiywTezizk5vw",
+        "T81bdZroZ2ITWSondpTmAw",
+        "oFvnlFP1wIhRlYS2jTaXbA",
+        "CGf81JWBsq8QyIgPCi9Q9X",
+        "D8s4D2mLs8Vn-goWuPQeKA"
+    ],
+    "Sec-WebSocket-Version": [
+        "25",
+        "8, 7",
+        "13",
+        "13, 8, 7"
+    ],
+    "Accept-Features": [
+        "*",
+        "blebber, x, !y, *",
+        "tables, *",
+        "blex, !blebber, colordepth={5}, !screenwidth,",
+        "blebber, x, *",
+        "blebber, !y, *"
+    ],
+    "Sec-WebSocket-Extensions": [
+        "private-extension",
+        "foo, bar; baz=2",
+        "mux; max-channels=4; flow-control,",
+        "foo",
+        "bar; baz=2",
+        "deflate-stream"
+    ],
+    "TCN": [
+        "choice",
+        "adhoc, keep",
+        "list"
+    ],
+    "Expires": [
+        "Tue, 10 Jan 2006 03:42:29 GMT",
+        "Sun, 06 Nov 1994 08:49:37 GMT",
+        "Thu, 01 Dec 1994 16:00:00 GMT",
+        "Thu, 01 Jan 1980 00:00:00 GMT",
+        "Wed, 21 Oct 2015 07:28:00 GMT",
+        "Tue, 10 Jan 2006 03:49:20 GMT",
+        "Tue, 11 Jan 2011 03:42:29 GMT"
+    ],
+    "Content-Location": [
+        "http://www.example.com/pet-profiles/alpacas/",
+        "/my-document",
+        "http://example.org/item/123",
+        "/file.txt",
+        "http://example.org/edit/first-post.atom",
+        "paper.1",
+        "paper.html.en"
+    ],
+    "Want-Content-Digest": [
+        "md5=0",
+        "sha-256=1",
+        "md5=1, sha-512=0, sha-256=4",
+        "sha-512=3, sha-256=10, unixsum=0"
+    ],
+    "Age": [
+        "900",
+        "0",
+        "30",
+        "8000",
+        "1800",
+        "24",
+        "1"
+    ],
+    "Origin": [
+        "https://developer.mozilla.org:80",
+        "http://example.com",
+        "https://developer.mozilla.org"
+    ],
+    "Sec-WebSocket-Protocol": [
+        "chat",
+        "chat, superchat"
+    ],
+    "CDN-Cache-Control": [
+        "max-age=3600",
+        "max-age=600",
+        "none",
+        "max-age=60"
+    ],
+    "TE": [
+        "deflate",
+        "trailers, deflate;q=0.5"
+    ],
+    "Access-Control-Allow-Methods": [
+        "GET, POST",
+        "*"
+    ],
+    "Alt-Svc": [
+        "h2=\":8000\"; ma=60",
+        "h2=\"new.example.org:80\"",
+        "h2=\":443\"; ma=2592000; persist=1",
+        "h2=\"alt.example.com:8000\", h2=\":443\"",
+        "h2=\":443\"; ma=3600",
+        "h2=\":8000\"",
+        "h3=\":50781\"",
+        "h2=\"alt.example:443\", h2=\"alt2.example:443\", h3=\":8443\""
+    ],
+    "Topic": [
+        "upd"
+    ],
+    "WWW-Authenticate": [
+        "Basic realm=\"simple\", Newauth realm=\"apps\",",
+        "Newauth realm=\"apps\", type=1,",
+        "Digest realm=\"example.com\",",
+        "Basic realm=\"foo\", charset=\"UTF-8\"",
+        "Digest    realm=\"testrealm@host.com\",",
+        "Basic realm=\"WallyWorld\"",
+        "Digest"
+    ],
+    "Proxy-Authorization": [
+        "Basic YWxhZGRpbjpvcGVuc2VzYW1l",
+        "Digest nonce=\"3bada1a0\"",
+        "Digest algorithm=\"md5\",nonce=\"3bada1a0\"",
+        "basic aGVsbG86d29ybGQ=",
+        "Basic dGVzdDoxMjPCow=="
+    ],
+    "If-Match": [
+        "\"c181bb840673b5\"",
+        "\"thvDyvhfIqlvFe+A9MYgxAfm1q5=\"",
+        "\"e180ee84f0671b1\"",
+        "*",
+        "\"e0023aa4e\"",
+        "\"xyzzy\"",
+        "\"xyzzy\", \"r2d2xxxx\", \"c3piozzzz\"",
+        "\"b8389233a4c\"",
+        "\"bfc13a64729c4290ef5b2c2730249c88ca92d82d\"",
+        "\"67ab43\", \"54ed21\", \"7892dd\""
+    ],
+    "Want-Repr-Digest": [
+        "sha-512=10, sha-256=1, md5=0",
+        "sha-512=8, sha-256=6, adler=0, sha=1",
+        "sha-256=1",
+        "sha-512=3, sha-256=10, unixsum=0"
+    ],
+    "Alternates": [
+        "{\"paper.1\" 0.9 {type text/html} {language en}},",
+        "{\"paper.html.en\" 0.9 {type text/html} {language en}},",
+        "{\"stats.tables.html\" 1.0 {type text/html} {features"
+    ],
+    "Accept-Patch": [
+        "text/example;charset=utf-8",
+        "application/merge-patch+json",
+        "application/example, text/example"
+    ],
+    "Accept-Ranges": [
+        "none",
+        "bytes"
+    ],
+    "Proxy-Authenticate": [
+        "Digest realm=\"example.com\"",
+        "Basic realm=\"Access to the internal site\"",
+        "Basic"
+    ],
+    "Sec-Token-Binding": [
+        "AIkAAgBBQFzK4_bhAqLDwRQxqJWte33d7hZ0hZWHwk-miKPg4E9fcgs7gBPoz-9RfuDfN9WCw6keHEw1ZPQMGs9CxpuHm-YAQM_jaOwwej6a-cQBGU7CJpUHOvXG4VvjNq8jDsvta9Y8_bPEPj25GgmKiPjhJEtZA6mJ_9SNifLvVBTi7fR9wSAAAA"
+    ],
+    "Optional-WWW-Authenticate": [
+        "Basic realm=\"xxxx\""
+    ],
+    "Accept-Encoding": [
+        "gzip, deflate",
+        "*",
+        "compress, gzip",
+        "compress;q=0.5, gzip;q=1.0",
+        "gzip, compress, br",
+        "gzip, compress, br, zstd",
+        "gzip",
+        "br;q=1.0, gzip;q=0.8, *;q=0.1",
+        "gzip;q=1.0, identity; q=0.5, *;q=0",
+        "identity",
+        "compress",
+        "gzip, compress"
+    ],
+    "Schedule-Reply": [
+        "F"
+    ],
+    "Strict-Transport-Security": [
+        "max-age=\"31536000\"",
+        "max-age=0",
+        "max-age=7776000",
+        "max-age=0; includeSubDomains",
+        "max-age=63072000; includeSubDomains; preload",
+        "max-age=15768000 ; includeSubDomains",
+        "max-age=31536000",
+        "max-age=31536000; includeSubDomains"
+    ],
+    "Repr-Digest": [
+        "sha-512=:YMAam51Jz/jOATT6/zvHrLVgOYTGFy1d6GJiOHTohq4yP+pgk4vf2aCsyRZOtw8MjkM7iw7yZ/WkppmM44T3qg==:",
+        "sha-256=:d435Qo+nKZ+gLcUHn7GQtQ72hiBVAgqoLsZnZPiTGPk=:,sha-512=:YMAam51Jz/jOATT6/zvHrLVgOYTGFy1d6GJiOHTohq4yP+pgk4vf2aCsyRZOtw8MjkM7iw7yZ/WkppmM44T3qg==:"
+    ],
+    "Proxy-Status": [
+        "ExampleCDN; error=connection_timeout",
+        "SomeOtherProxy",
+        "reverseproxy.example.net; next-hop=\"2001:db8::2\";",
+        "r34.example.net; error=http_request_error, ExampleCDN",
+        "\"proxy.example.org\"; next-protocol=h2",
+        "proxy.example.net; next-hop=\"2001:db8::1\";",
+        "revproxy1.example.net, ExampleCDN",
+        "ExampleCDN; received-status=200",
+        "proxy.example.net; error=\"http_protocol_error\";",
+        "SomeOtherProxy, ThisProxy",
+        "cdn.example.org; next-hop=backend.example.org:8001",
+        "ThisProxy; error=read_timeout"
+    ],
+    "Accept-Datetime": [
+        "Tue, 20 Mar 2001 20:35:00 GMT",
+        "Thu, 31 May 2007 20:35:00 GMT"
+    ],
+    "Content-Encoding": [
+        "aes128gcm",
+        "gzip",
+        "x-gzip",
+        "compress"
+    ],
+    "Access-Control-Expose-Headers": [
+        "*",
+        "Content-Encoding, Kuma-Revision",
+        "Content-Encoding"
+    ],
+    "Label": [
+        "release%20B.3"
+    ],
+    "Content-Digest": [
+        "sha-512=:YMAam51Jz/jOATT6/zvHrLVgOYTGFy1d6GJiOHTohq4yP+pgk4vf2aCsyRZOtw8MjkM7iw7yZ/WkppmM44T3qg==:",
+        "sha-512=:0Y6iCBzGg5rZtoXS95Ijz03mslf6KAMCloESHObfwnHJDbkkWWQz6PhhU9kxsTbARtY2PTBOzq24uJFpHsMuAg==:",
+        "sha-512=:WZDPaVn/7XgHaAy8pmojAkGWoRx2UFChF41A2svX+TaPm+AbwAgBWnrIiYllu7BNNyealdVLvRwEmTHWXvJwew==:",
+        "sha-256=:d435Qo+nKZ+gLcUHn7GQtQ72hiBVAgqoLsZnZPiTGPk=:,sha-512=:YMAam51Jz/jOATT6/zvHrLVgOYTGFy1d6GJiOHTohq4yP+pgk4vf2aCsyRZOtw8MjkM7iw7yZ/WkppmM44T3qg==:",
+        "sha-256=:X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=:"
+    ],
+    "Set-Cookie": [
+        "SID=31d4d96e407aad42",
+        "SID=31d4d96e407aad42; Path=/; Secure; HttpOnly",
+        "Part_Number=\"Riding_Rocket_0023\"; Version=\"1\";",
+        "lang=; Expires=Sun, 06 Nov 1994 08:49:37 GMT",
+        "Shipping=\"FedEx\"; Version=\"1\"; Path=\"/acme\"",
+        "lang=en-US; Path=/; Domain=example.com",
+        "SID=31d4d96e407aad42; Path=/; Domain=example.com",
+        "lang=en-US; Expires=Wed, 09 Jun 2021 10:18:14 GMT",
+        "Part_Number=\"Rocket_Launcher_0001\"; Version=\"1\";",
+        "Customer=\"WILE_E_COYOTE\"; Version=\"1\"; Path=\"/acme\""
+    ],
+    "TTL": [
+        "600",
+        "15",
+        "10"
+    ],
+    "Content-Disposition": [
+        "form-data; name=\"field1\"",
+        "Attachment; filename=example.html",
+        "INLINE; FILENAME= \"an example.html\"",
+        "attachment;",
+        "form-data; name=\"field2\"; filename=\"example.txt\"",
+        "attachment; filename=\"fname.ext\"",
+        "attachment; filename=\"cool.html\""
+    ],
+    "Apply-To-Redirect-Ref": [
+        "T",
+        "F"
+    ],
+    "X-Content-Type-Options": [
+        "nosniff"
+    ],
+    "DASL": [
+        "<http://foobar.example/syntax1>,",
+        "<DAV:basicsearch>",
+        "<http://example.com/foo/natural-language-query>",
+        "<http://foobar.example/syntax1>, <http://akuma.example/syntax2>"
+    ],
+    "If-Range": [
+        "\"B\"",
+        "Wed, 21 Oct 2015 07:28:00 GMT"
+    ],
+    "CalDAV-Timezones": [
+        "F"
+    ],
+    "Negotiate": [
+        "1.0, 2.5",
+        "1.0",
+        "*"
+    ],
+    "Signature-Input": [
+        "reqres=(\"@status\" \"content-digest\" \"content-type\" \"@authority\";req \"@method\";req \"@path\";req \"@query\";req \"content-digest\";req \"content-type\";req \"content-length\";req);created=1618884479;keyid=\"test-key-ecc-p256\"",
+        "sig1=(\"@method\" \"@authority\" \"@path\" \"content-digest\" \"content-length\" \"content-type\");created=1618884473;keyid=\"test-key-rsa-pss\"",
+        "sig1=(\"@method\" \"@authority\" \"@path\" \"@query\" \"content-digest\" \"content-type\" \"content-length\");created=1618884475;keyid=\"test-key-rsa-pss\"",
+        "sig1=(\"@method\" \"@authority\" \"@path\" \"content-digest\" \"content-type\" \"content-length\");created=1618884475;keyid=\"test-key-ecc-p256\"",
+        "sig1=(\"@method\" \"@authority\" \"@path\" \"content-digest\" \"content-type\" \"content-length\");created=1618884475;keyid=\"test-key-ecc-p256\", proxy_sig=(\"@method\" \"@authority\" \"@path\" \"content-digest\" \"content-type\" \"content-length\" \"forwarded\");created=1618884480;keyid=\"test-key-rsa\";alg=\"rsa-v1_5-sha256\";expires=1618884540",
+        "reqres=(\"@status\" \"content-digest\" \"content-type\" \"@authority\";req \"@method\";req \"@path\";req \"content-digest\";req);created=1618884479;keyid=\"test-key-ecc-p256\"",
+        "sig1=(\"@method\" \"@target-uri\" \"@authority\" \"content-digest\" \"cache-control\");created=1618884475;keyid=\"test-key-rsa-pss\""
+    ],
+    "Max-Forwards": [
+        "0",
+        "10"
+    ],
+    "Alt-Used": [
+        "alternate.example.net"
+    ],
+    "Retry-After": [
+        "3600",
+        "Fri, 31 Dec 1999 23:59:59 GMT",
+        "120"
+    ],
+    "Cross-Origin-Resource-Policy": [
+        "same-origin"
+    ],
+    "Early-Data": [
+        "1"
+    ],
+    "Timeout": [
+        "Infinite, Second-4100000000"
+    ],
+    "Accept-Signature": [
+        "sig1=(\"@method\" \"@target-uri\" \"@authority\" \"content-digest\" \"cache-control\");keyid=\"test-key-rsa-pss\";created;tag=\"app-123\""
+    ],
+    "Content-Security-Policy": [
+        "default-src https:; report-to /csp-violation-report-endpoint/",
+        "default-src 'none'"
+    ],
+    "Sunset": [
+        "Wed, 11 Nov 2026 11:11:11 GMT",
+        "Sat, 31 Dec 2018 23:59:59 GMT"
+    ],
+    "Capsule-Protocol": [
+        "?1"
+    ],
+    "Trailer": [
+        "Expires",
+        "Foo                         :status = 200"
+    ],
+    "If-Modified-Since": [
+        "Wed, 21 Oct 2015 07:28:00 GMT",
+        "Sat, 29 Oct 1994 19:43:31 GMT"
+    ],
+    "Access-Control-Request-Headers": [
+        "content-type,x-pingother"
+    ],
+    "Access-Control-Allow-Origin": [
+        "*",
+        "https://developer.mozilla.org"
+    ],
+    "ALPN": [
+        "h2, http%2F1.1"
+    ],
+    "Delta-Base": [
+        "\"337pey\""
+    ],
+    "Schedule-Tag": [
+        "\"12ab34-cd56ef\""
+    ],
+    "Public-Key-Pins-Report-Only": [
+        "max-age=2592000;"
+    ],
+    "Access-Control-Request-Method": [
+        "POST"
+    ],
+    "If-Unmodified-Since": [
+        "Wed, 21 Oct 2015 07:28:00 GMT",
+        "Sat, 29 Oct 1994 19:43:31 GMT"
+    ],
+    "Preference-Applied": [
+        "safe",
+        "return=representation"
+    ],
+    "Expect": [
+        "100-continue"
+    ],
+    "Access-Control-Max-Age": [
+        "600"
+    ],
+    "Overwrite": [
+        "F"
+    ],
+    "Origin-Agent-Cluster": [
+        "?1"
+    ],
+    "Sec-WebSocket-Accept": [
+        "s3pPLMBiTxaQ9kYGzzhZRbK+xOo="
+    ]
+}

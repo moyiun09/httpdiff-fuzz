@@ -1,0 +1,244 @@
+Accept: text/html
+Accept: image/*
+Accept: */*
+Accept: text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8
+Accept-CH: Viewport-Width, Width
+Vary: Viewport-Width, Width
+Accept-Encoding: gzip
+Accept-Encoding: gzip, compress, br
+Accept-Encoding: gzip, compress, br, zstd
+Accept-Encoding: br;q=1.0, gzip;q=0.8, *;q=0.1
+Accept-Language: de
+Accept-Language: de-CH
+Accept-Language: en-US,en;q=0.5
+Accept-Patch: application/example, text/example
+Accept-Patch: text/example;charset=utf-8
+Accept-Patch: application/merge-patch+json
+Accept-Post: application/example, text/example
+Accept-Post: image/webp
+Accept-Post: */*
+Accept-Ranges: bytes
+Access-Control-Allow-Credentials: true
+credentials: "include",
+Access-Control-Allow-Methods: GET, POST
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Origin: https://developer.mozilla.org
+Access-Control-Expose-Headers: Content-Encoding
+Access-Control-Expose-Headers: Content-Encoding, Kuma-Revision
+Access-Control-Expose-Headers: *
+Access-Control-Max-Age: 600
+Access-Control-Request-Headers: content-type,x-pingother
+Access-Control-Request-Method: POST
+Age: 24
+Allow: GET, POST, HEAD
+Alt-Used: alternate.example.net
+Attribution-Reporting-Eligible: trigger
+Content-Type: text/html; charset=utf-8
+Content-Disposition: attachment; filename="cool.html"
+Content-Length: 21
+Host: example.org
+Content-Type: multipart/form-data;boundary="boundary"
+Content-Disposition: form-data; name="field1"
+Content-Disposition: form-data; name="field2"; filename="example.txt"
+Content-Range: bytes 200-1000/67589
+Content-Security-Policy-Report-Only: default-src https:; report-to /csp-violation-report-endpoint/
+Content-Security-Policy: default-src https:; report-to /csp-violation-report-endpoint/
+Cookie: PHPSESSID=298zf09hf012fh2; csrftoken=u32t4o3tb3gg43; _gat=1
+Host: example.com
+Content-Type: text/html
+Accept-CH: Sec-CH-Prefers-Reduced-Motion
+Vary: Sec-CH-Prefers-Reduced-Motion
+Critical-CH: Sec-CH-Prefers-Reduced-Motion
+Host: example.com
+Sec-CH-Prefers-Reduced-Motion: "reduce"
+Cross-Origin-Resource-Policy: same-origin
+Date: Wed, 21 Oct 2015 07:28:00 GMT
+Accept-CH: Device-Memory
+Device-Memory: 1
+Digest: sha-256=X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=
+Digest: sha-256=X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=,unixsum=30637
+Digest: sha-256=X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=,id-sha-256=0KJL0PvNLH5UbYZLTT7DBFuSyxKpnjyadrWx5E90E/z=
+Accept-CH: Downlink
+Downlink: 1.7
+Accept-CH: DPR
+DPR: 2.0
+Content-DPR: 2.0
+Host: example.com
+Early-Data: 1
+Accept-CH: ECT
+ECT: 2g
+ETag: "33a64df551425fcc55e4d42a148795d9f25f89d4"
+ETag: W/"0815"
+Expires: Wed, 21 Oct 2015 07:28:00 GMT
+From: webmaster@example.org
+Host: developer.mozilla.org
+If-Match: "bfc13a64729c4290ef5b2c2730249c88ca92d82d"
+If-Match: "67ab43", "54ed21", "7892dd"
+If-Match: *
+If-Modified-Since: Wed, 21 Oct 2015 07:28:00 GMT
+If-None-Match: "bfc13a64729c4290ef5b2c2730249c88ca92d82d"
+If-None-Match: W/"67ab43", "54ed21", "7892dd"
+If-None-Match: *
+If-Range: Wed, 21 Oct 2015 07:28:00 GMT
+If-Unmodified-Since: Wed, 21 Oct 2015 07:28:00 GMT
+Connection: Keep-Alive
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Date: Thu, 11 Aug 2016 15:23:13 GMT
+Keep-Alive: timeout=5, max=1000
+Last-Modified: Mon, 25 Jul 2016 04:32:39 GMT
+Server: Apache
+Last-Modified: Wed, 21 Oct 2015 07:28:00 GMT
+Link: <https://example.com>; rel="preconnect"
+Link: https://bad.example; rel="preconnect"
+Location: /index.html
+Max-Forwards: 0
+Max-Forwards: 10
+Origin: https://developer.mozilla.org
+Origin: https://developer.mozilla.org:80
+Origin-Agent-Cluster: ?1
+Pragma: no-cache
+Proxy-Authenticate: Basic
+Proxy-Authenticate: Basic realm="Access to the internal site"
+Proxy-Authorization: Basic YWxhZGRpbjpvcGVuc2VzYW1l
+Referer: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+Referer: https://example.com/page?q=123
+Referer: https://example.com/
+Accept-CH: RTT
+RTT: 125
+Sec-Browsing-Topics: [{configVersion: "chrome.1", modelVersion: "1", taxonomyVersion: "1", topic: 43, version: "chrome.1:1:1"}]
+Host: example.com
+Content-Type: text/html
+Accept-CH: Sec-CH-Prefers-Color-Scheme
+Vary: Sec-CH-Prefers-Color-Scheme
+Critical-CH: Sec-CH-Prefers-Color-Scheme
+Host: example.com
+Sec-CH-Prefers-Color-Scheme: "dark"
+Host: example.com
+Content-Type: text/html
+Accept-CH: Sec-CH-Prefers-Reduced-Motion
+Vary: Sec-CH-Prefers-Reduced-Motion
+Critical-CH: Sec-CH-Prefers-Reduced-Motion
+Host: example.com
+Sec-CH-Prefers-Reduced-Motion: "reduce"
+Host: example.com
+Content-Type: text/html
+Accept-CH: Sec-CH-Prefers-Reduced-Transparency
+Vary: Sec-CH-Prefers-Reduced-Transparency
+Critical-CH: Sec-CH-Prefers-Reduced-Transparency
+Host: example.com
+Sec-CH-Prefers-Reduced-Transparency: "reduce"
+Sec-CH-UA: "(Not(A:Brand";v="8", "Chromium";v="98"
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Microsoft Edge";v="96"
+Sec-CH-UA: "Opera";v="81", " Not;A Brand";v="99", "Chromium";v="95"
+Accept-CH: Sec-CH-UA-Arch
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Platform: "Windows"
+Sec-CH-UA-Arch: "x86"
+Accept-CH: Sec-CH-UA-Bitness
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Platform: "Windows"
+Sec-CH-UA-Bitness: "64"
+Accept-CH: Sec-CH-UA-Full-Version
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Full-Version: "96.0.4664.110"
+Sec-CH-UA-Platform: "Windows"
+Accept-CH: Sec-CH-UA-Full-Version-List
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Full-Version-List: " Not A;Brand";v="99.0.0.0", "Chromium";v="98.0.4750.0", "Google Chrome";v="98.0.4750.0"
+Sec-CH-UA-Platform: "Linux"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Mobile: ?1
+Accept-CH: Sec-CH-UA-Model
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA-Mobile: ?1
+Sec-CH-UA-Platform: "Android"
+Sec-CH-UA-Bitness: "64"
+Sec-CH-UA-Model: "Pixel 3 XL"
+Sec-CH-UA-Platform: "macOS"
+Accept-CH: Sec-CH-UA-Platform-Version
+Host: example.site
+Sec-CH-UA: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+Sec-CH-UA-Mobile: ?0
+Sec-CH-UA-Platform: "Windows"
+Sec-CH-UA-Platform-Version: "10.0.0"
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Sec-WebSocket-Accept: s3pPLMBiTxaQ9kYGzzhZRbK+xOo=
+Server: Apache/2.4.1 (Unix)
+Service-Worker-Navigation-Preload: true
+Service-Worker-Navigation-Preload: json_fragment1
+Set-Login: logged-in
+Set-Login: logged-out
+SourceMap: /path/to/file.js.map
+Speculation-Rules: "/rules/prefetch.json"
+Speculation-Rules: "/rules/prefetch.json","/rules/prerender.json"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Supports-Loading-Mode: fenced-frame
+Timing-Allow-Origin: *
+Timing-Allow-Origin: https://developer.mozilla.org
+Tk: N
+Connection: upgrade
+Upgrade: HTTP/2.0, SHTTP/1.3, IRC/6.9, RTA/x11
+Connection: Upgrade
+Upgrade: websocket
+Host: example.com
+Upgrade-Insecure-Requests: 1
+Location: https://example.com/
+Vary: Upgrade-Insecure-Requests
+Via: 1.1 vegur
+Via: HTTP/1.1 GWA
+Via: 1.0 fred, 1.1 p.example.net
+Accept-CH: Viewport-Width
+Viewport-Width: 320
+Want-Content-Digest: md5=1, sha-512=0, sha-256=4
+Want-Content-Digest: md5=0
+Want-Digest: sha-256
+Want-Digest: SHA-512;q=0.3, sha-256;q=1, md5;q=0
+Want-Repr-Digest: sha-512=8, sha-256=6, adler=0, sha=1
+Want-Repr-Digest: sha-512=10, sha-256=1, md5=0
+Warning: 110 anderson/1.3.37 "Response is stale"
+Date: Wed, 21 Oct 2015 07:28:00 GMT
+Warning: 112 - "cache down" "Wed, 21 Oct 2015 07:28:00 GMT"
+Accept-CH: Width
+Width: 1920
+X-Forwarded-For: 2001:db8:85a3:8d3:1319:8a2e:370:7348
+X-Forwarded-For: 203.0.113.195
+X-Forwarded-For: 203.0.113.195, 2001:db8:85a3:8d3:1319:8a2e:370:7348
+X-Forwarded-For: 203.0.113.195,2001:db8:85a3:8d3:1319:8a2e:370:7348,198.51.100.178
+X-Forwarded-Host: id42.example-cdn.com
+X-Forwarded-Proto: https
+Front-End-Https: on
+X-Forwarded-Protocol: https
+X-Forwarded-Ssl: on
+X-Url-Scheme: https

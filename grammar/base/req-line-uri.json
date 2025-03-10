@@ -1,0 +1,40 @@
+{
+  "<start>": [
+    "<request>"
+  ],
+  "<request>": [
+    "<request-line><newline><base><newline><the-rest>"
+  ],
+  "<request-line>": [
+    "<method><sp><uri><sp><http_version>"
+  ],
+  "<sp>": [
+    " "
+  ],
+  "<method>": [
+    "GET",
+    "PUT",
+    "POST",
+    "HEAD",
+    "OPTIONS",
+    "CONNECT"
+  ],
+  "<uri>": [
+    "__URI__"
+  ],
+  "<http_version>": [
+    "",
+    "HTTP/0.9",
+    "HTTP/1.0",
+    "HTTP/1.1"
+  ],
+  "<newline>": [
+    "\r\n"
+  ],
+  "<base>": [
+    "Host: _HOST_\r\nConnection:close\r\nX-Request-ID: _REQUEST_ID_\r\n"
+  ],
+  "<the-rest>": [
+    "BBBB"
+  ]
+}

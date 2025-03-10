@@ -1,0 +1,92 @@
+{
+    "Want-Digest": [
+        "SHA-512;q=0.3, sha-256;q=1, md5;q=0",
+        "sha-256",
+        "MD5;q=0.3, sha;q=1",
+        "md5"
+    ],
+    "Protocol": [
+        "HTTP/3",
+        "HTTP/2 over TCP",
+        "HTTP/2 over TLS",
+        "http (RFC 7230)",
+        "http",
+        "HTTP"
+    ],
+    "URI": [
+        "The URI for this namespace is urn:ietf:params:xml:ns:xcap-caps",
+        "http://www.metalinker.org",
+        "urn:ietf:params:xml:schema:geopriv:held:id",
+        "urn:ietf:params:xml:ns:caldav",
+        "urn:ietf:params:xml:schema:geopriv:held:ri",
+        "http://www.dankohn.com/",
+        "http://www.4K-associates.com/",
+        "urn:ietf:params:xml:schema:xcap-error",
+        "urn:ietf:params:xml:ns:geopriv:held:ri",
+        "urn:ietf:params:xml:schema:xcap-caps",
+        "http://www.agranat.com/",
+        "http://www.simonstl.com/",
+        "urn:ietf:params:xml:schema:resource-lists",
+        "urn:ietf:params:xml:ns:geopriv:held",
+        "http://www.apple.com/",
+        "http://greenbytes.de/tech/webdav/",
+        "http://www.andrew.com/",
+        "urn:ietf:params:xml:ns:geopriv:held:flow",
+        "The URI for this namespace is urn:ietf:params:xml:ns:xcap-error",
+        "http://sphericalcowgroup.com",
+        "urn:ietf:params:xml:ns:metalink",
+        "urn:ietf:params:xml:schema:geopriv:held",
+        "urn:ietf:params:xml:schema:rls-services",
+        "http://www.mnot.net/",
+        "urn:ietf:params:xml:ns:geopriv:held:id"
+    ],
+    "Digest": [
+        "md5=HUXZLQLMuI/KZ5KDcJPcOA==",
+        "sha-256=X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=,id-sha-256=0KJL0PvNLH5UbYZLTT7DBFuSyxKpnjyadrWx5E90E/z=",
+        "SHA-256=MWVkMWQxYTRiMzk5MDQ0MzI3NGU5NDEyZTk5OWY1ZGFmNzgyZTJlO",
+        "sha-256=X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=",
+        "SHA=thvDyvhfIqlvFe+A9MYgxAfm1q5=,unixsum=30637",
+        "sha-256=X48E9qOokqqrvdts8nOJRJN3OWDUoyWxBf7kbu9DBPE=,unixsum=30637"
+    ],
+    "Warning": [
+        "112 - \"network down\" \"Sat, 25 Aug 2012 23:34:45 GMT\"",
+        "110 anderson/1.3.37 \"Response is stale\"",
+        "112 - \"cache down\" \"Wed, 21 Oct 2015 07:28:00 GMT\"",
+        "duplicate-document"
+    ],
+    "Accept-Charset": [
+        "ISO-8859-1, ISO-8859-7;q=0.6, *",
+        "ISO-8859-1, ISO-8859-7;q=0.95, *",
+        "iso-8859-5, unicode-1-1;q=0.8"
+    ],
+    "Content-Version": [
+        "\"2.5a4-omega7\"",
+        "\"Fred 19950116-12:26:48\"",
+        "\"2.1.2\""
+    ],
+    "Expect-CT": [
+        "max-age=86400,enforce",
+        "max-age=86400,report-uri=\"https://foo.example/report\"",
+        "max-age=86400, enforce",
+        "report-uri=\"https://foo.example/report\""
+    ],
+    "Pragma": [
+        "no-cache"
+    ],
+    "Man": [
+        "\"http://www.copyright.org/rights-management\"; ns=16"
+    ],
+    "Safe": [
+        "Yes",
+        "yes"
+    ],
+    "Derived-From": [
+        "\"2.1.1\""
+    ],
+    "Public": [
+        "OPTIONS, MGET, MHEAD, GET, HEAD"
+    ],
+    "C-Man": [
+        "\"http://www.digest.org/ProxyAuth\"; ns=14"
+    ]
+}

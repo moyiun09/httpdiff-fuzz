@@ -1,0 +1,65 @@
+{
+    "<start>": [
+        "<request>"
+    ],
+    "<request>": [
+        "<request-line><newline><base><request-headers><newline><request-body>"
+    ],
+    "<request-line>": [
+        "POST / HTTP/1.1",
+        "POST / HTTP/1.0",
+        "POST / HTTP/0.9",
+        "POST /",
+        "POST / HTTP/1.X"
+    ],
+    "<sp>": [
+        " "
+    ],
+    "<base>": [
+        "Host: _HOST_\r\nX-Request-ID: _REQUEST_ID_\r\n"
+    ],
+    "<request-headers>": [
+        "<entity-header><newline>"
+    ],
+    "<colon>": [
+        ":"
+    ],
+    "<newline>": [
+        "\r\n"
+    ],
+    "<entity-header>": [
+        "<Content-Length><Transfer-Encoding>",
+        "<Transfer-Encoding>"
+    ],
+    "<request-body>": [
+        "<chunked-body>"
+    ],
+    "<Content-Length>": [
+        "Content-Length: __BODY_LENGTH__"
+    ],
+    "<Transfer-Encoding>": [
+        "<Transfer-Encoding-name><colon><sp><Transfer-Encoding-value>"
+    ],
+    "<Transfer-Encoding-name>": [
+        "Transfer-Encoding"
+    ],
+    "<Transfer-Encoding-value>": [
+        "gzip, chunked",
+        "chunked"
+    ],
+    "<chunked-body>": [
+        "<chunk><last-chunk>"
+    ],
+    "<chunk>": [
+        "<chunk-size><newline><chunk-data><newline>"
+    ],
+    "<chunk-size>": [
+        "__CHUNKED_SIZE__"
+    ],
+    "<chunk-data>": [
+        "__BODY__"
+    ],
+    "<last-chunk>": [
+        "0\r\n\r\n"
+    ]
+}

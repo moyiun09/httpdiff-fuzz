@@ -1,0 +1,924 @@
+{
+    "X-Forwarded-For": [
+        "203.0.113.195, 2001:db8:85a3:8d3:1319:8a2e:370:7348",
+        "192.0.2.43, 2001:db8:cafe::17",
+        "203.0.113.195,2001:db8:85a3:8d3:1319:8a2e:370:7348,198.51.100.178",
+        "203.0.113.195",
+        "2001:db8:85a3:8d3:1319:8a2e:370:7348"
+    ],
+    "Example-List": [
+        "sugar, tea",
+        "rum",
+        "(\"foo\" \"bar\"), (\"baz\"), (\"bat\" \"one\"), ()",
+        "abc;a=1;b=2; cde_456, (ghi;jk=4 l);q=\"9\";r=w",
+        "sugar, tea, rum",
+        "(\"foo\"; a=1;b=2);lvl=5, (\"bar\" \"baz\");lvl=1"
+    ],
+    "Certificate-Info": [
+        "<Cert-Fmt>','<Cert-Group>"
+    ],
+    "REQ": [
+        "GET /.well-known/core",
+        "GET /sensors",
+        "GET /.well-known/core?rt=firmware",
+        "GET /.well-known/core?rt=light-lux",
+        "GET /.well-known/core?anchor=/sensors/temp"
+    ],
+    "SHTTP-Privacy-Enhancements": [
+        "('sign' | 'encrypt' | 'auth')",
+        "orig-required=sign;",
+        "recv-required=encrypt",
+        "recv-required=auth\">Click here to",
+        "orig-optional=sign,encrypt, auth;"
+    ],
+    "Slug": [
+        "The Pier",
+        "The Beach at S%C3%A8te",
+        "The Beach",
+        "First Post",
+        "Sample Title",
+        "A day at the beach"
+    ],
+    "Preview": [
+        "0",
+        "2048",
+        "4096",
+        "1024"
+    ],
+    "Encryption-Identity": [
+        "DN-1779, null, CN=Setec Astronomy, OU=Persona",
+        "<name-class>','<key-sel>','<name-args>"
+    ],
+    "Code": [
+        "0x10",
+        "0xa",
+        "0x8",
+        "0x9"
+    ],
+    "foo": [
+        "bar; title=\"EURO exchange rates\";",
+        "bar; title=\"US-$ rates\"",
+        "bar; title*=utf-8'en'%C2%A3%20rates",
+        "bar; title*=UTF-8''%c2%a3%20and%20%e2%82%ac%20rates",
+        "bar; title=Economy",
+        "bar; title*=iso-8859-1'en'%A3%20rates"
+    ],
+    "Etag": [
+        "\"ad88\"",
+        "\"abcde\"",
+        "\"ghi\"",
+        "\"def\"",
+        "\"thvDyvhfIqlvFe+A9MYgxAfm1q5=\"",
+        "\"wwhha\"",
+        "\"B\"",
+        "\"gonkyyyy;1234\"",
+        "\"abc\"",
+        "\"gonkyyyy\""
+    ],
+    "Front-End-Https": [
+        "on"
+    ],
+    "AM-Part": [
+        "am-part",
+        "response-header",
+        "request-header"
+    ],
+    "Repository": [
+        "http://www.iana.org/assignments/acme",
+        "\"RESTCONF Capability URNs\" registry (Section 11.4)",
+        "http://www.iana.org/assignments/webpush-parameters/"
+    ],
+
+    "Example-Integer": [
+        "1; a; b=?0",
+        "5; foo=bar",
+        "5",
+        "42"
+    ],
+    "SHTTP-Symmetric-Header-Algorithms": [
+        "orig-optional=DES-ECB;",
+        "('DES-ECB' | 'DES-EDE-ECB' |"
+    ],
+    "Disposition": [
+        "\"disposition-mode\";  failed/Failure:",
+        "automatic-action/MDN-sent-automatically; failed",
+        "automatic-action/MDN-sent-automatically; processed",
+        "\"disposition-mode\"; processed/Error:",
+        "automatic-action/MDN-sent-automatically;",
+        "\"disposition-mode\"; processed/Warning:"
+    ],
+    "Res": [
+        "HTTP/1.1 200 OK",
+        "2.05 Content"
+    ],
+    "Sec-CH-UA-Full-Version": [
+        "\"96.0.4664.110\""
+    ],
+    "Content-Encodings": [
+        "(gzip)"
+    ],
+    "information": [
+        "witness values cryptographically derived from a shared-"
+    ],
+    "cookie": [
+        "a=b",
+        "a=b; c=d; e=f",
+        "e=f",
+        "c=d"
+    ],
+    "SHTTP-Key-Exchange-Algorithms": [
+        "recv-required=DH;",
+        "orig-optional=DH,Inband,Outband;",
+        "orig-optional=Inband, DH;",
+        "('DH', 'RSA' | 'Inband' | 'Outband')"
+    ],
+    "SHTTP-Cryptopts": [
+        "scope=tag1,tag2;",
+        "<scope>';'<string>(,<string>)*"
+    ],
+    "Receipt-delivery-option": [
+        "https://www.example.com",
+        "http://www.example.com",
+        "mailto:as2@example.com"
+    ],
+    "cache-control": [
+        "max-age=86000,public,no-transform,must-revalidate",
+        "max-age=<n>, public, no-transform, must-revalidate"
+    ],
+    "Encapsulated": [
+        "res-hdr=0, res-body=222",
+        "req-hdr=0, req-body=147",
+        "req-hdr=0, null-body=119",
+        "res-hdr=0, res-body=213",
+        "req-hdr=0, res-hdr=45, res-body=100",
+        "req-hdr=0, null-body=170",
+        "req-hdr=0, res-hdr=137, res-body=296",
+        "opt-body=0",
+        "null-body=0"
+    ],
+    "send": [
+        "endpoint sends this frame"
+    ],
+    "Significance": [
+        "magnitude of problem, environments where it exists"
+    ],
+    "Failure": [
+        "sender-equals-receiver"
+    ],
+    "Appendix": [
+        "A Review of CMS",
+        "Internet Media Type message/s-http"
+    ],
+    "multistatus": [
+        "see RFC 2518, Section 12.9"
+    ],
+    "Upgrade-Insecure-Requests": [
+        "1"
+    ],
+    "states": [
+        "'completed', 'canceled', or 'aborted', the IPP Printer"
+    ],
+    "info": [
+        "the concatenation of the ASCII-encoded string \"WebPush: info\""
+    ],
+    "Nonce-Echo": [
+        "<string>"
+    ],
+    "Attack": [
+        "Obtain a Deployment-Specific Secret:",
+        "Steal Device:",
+        "Obtain Secret From Source Code or Binary:",
+        "Obtain Refresh Token from Native Clients:",
+        "Clone Device:",
+        "Obtain Refresh Token from Web Application:"
+    ],
+    "content-length": [
+        "1000",
+        "<OCSP response length>"
+    ],
+    "Encoding": [
+        "See Section 4.4.1 and Section 4.5.1",
+        "See Section 4.4.2 and Section 4.5.2",
+        "See Section 3.1"
+    ],
+    "Req": [
+        "GET /.well-known/core?rt=core.hc HTTP/1.1",
+        "GET coap://[ff02::fd]/.well-known/core?rt=core.hc"
+    ],
+    "Receipt-Delivery-Option": [
+        "return-URL",
+        "http://www.example.com/Path"
+    ],
+    "Critical-CH": [
+        "Sec-CH-Prefers-Reduced-Transparency",
+        "Sec-CH-Prefers-Reduced-Motion",
+        "Sec-CH-Prefers-Color-Scheme"
+    ],
+    "AlgId": [
+        "{1 2 840 113533 7 66 13}, with SHA-1 {1 3 14 3 2 26} as the",
+        "{1 2 840 10040 4 3};",
+        "{1 2 840 10046 2 1};"
+    ],
+    "Comments": [
+        "None",
+        "Cache directives targeted at content delivery networks"
+    ],
+    "Sec-Fetch-Site": [
+        "cross-site",
+        "same-origin"
+    ],
+    "X-Forwarded-Host": [
+        "id42.example-cdn.com"
+    ],
+    "Content-location": [
+        "redirect-to-blah"
+    ],
+    "ES": [
+        "END_STREAM flag"
+    ],
+    "Namespace": [
+        "DAV:",
+        "urn:ietf:params:xml:ns:caldav"
+    ],
+    "Notes": [
+        "[optional]",
+        "None"
+    ],
+    "PP": [
+        "PUSH_PROMISE frame (with implied CONTINUATION frames); state",
+        "PUSH_PROMISE frame (with implied CONTINUATIONs)"
+    ],
+    "Referrer-Policy": [
+        "no-referrer"
+    ],
+    "Specification": [
+        "RFC 7711 (this document)",
+        "RFC 8555",
+        "This document",
+        "Section 9.1.2 of this document",
+        "RFC 8040",
+        "RFC 8030 (this document)",
+        "Section 4 of this document"
+    ],
+    "Key-Assign": [
+        "<Method>','<Key-Name>','<Lifetime>','",
+        "inband,akey,reply,DES-ECB;0123456789abcdef"
+    ],
+    "Options-TTL": [
+        "3600",
+        "7200"
+    ],
+    "KDF": [
+        "HKDF-SHA256 (see [HPKE], Section 7.2)"
+    ],
+    "Timing-Allow-Origin": [
+        "https://developer.mozilla.org",
+        "*"
+    ],
+    "Status": [
+        "Standard",
+        "experimental",
+        "informational",
+        "standard",
+        "permanent",
+        "Permanent",
+        "Informational",
+        "obsoleted",
+        "The status of the algorithm.  The options are:",
+        "provisional",
+        "deprecated"
+    ],
+    "Accept-encoding": [
+        "gzip"
+    ],
+    "EDI": [
+        "Electronic Data Interchange"
+    ],
+    "SHTTP-Signature-Algorithms": [
+        "orig-optional=NIST-DSS;",
+        "orig-required=NIST-DSS;",
+        "('RSA' | 'NIST-DSS')"
+    ],
+    "Aux-Parts": [
+        "(request-header,request-body)",
+        "(request-header)"
+    ],
+    "Max-Connections": [
+        "1000",
+        "1500"
+    ],
+    "am-part": [
+        "extends atom;"
+    ],
+    "EC": [
+        "Business-to-Business Electronic Commerce"
+    ],
+    "NOTE": [
+        "'\\' line wrapping per RFC 8792",
+        "The above behavior is a \"SHOULD\" rather than a \"MUST\" due to:",
+        "Two endpoints may not agree on the value of _The WebSocket",
+        "Adding such a feature should be done very carefully in both",
+        "The notion of a \"secure\" protocol is not defined by",
+        "As an example, if the randomly selected value was the",
+        "For security reasons, many user agents are configured to reject"
+    ],
+    "Sec-CH-UA-Platform": [
+        "\"macOS\"",
+        "\"Android\"",
+        "\"Linux\"",
+        "\"Windows\""
+    ],
+    "X-Url-Scheme": [
+        "https"
+    ],
+    "OPES-System": [
+        "http://www.cdn.example.com/opes?session=ac79a749f56"
+    ],
+    "Sec-Fetch-Dest": [
+        "document",
+        "image",
+        "empty"
+    ],
+    "Transfer-Ignore": [
+        "html"
+    ],
+    "Service-Worker-Navigation-Preload": [
+        "json_fragment1",
+        "true"
+    ],
+    "Others": [
+        "alternatives to the mandatory AlgorithmIdentifier"
+    ],
+    "Content-type": [
+        "application/mathml+xml",
+        "text/xml-external-parsed-entity; charset=\"utf-8\"",
+        "text/xml; charset=\"iso-2022-kr\"",
+        "message/disposition-notification",
+        "application/xslt+xml",
+        "application/xml; charset=\"utf-8\"",
+        "multipart/byteranges; boundary=THIS_STRING_SEPARATES",
+        "application/xml",
+        "application/xml; charset=\"iso-2022-kr\"",
+        "multipart/signed",
+        "application/xml-dtd; charset=\"utf-8\"",
+        "image/svg+xml",
+        "text/xml; charset=\"utf-16be\"",
+        "application/octet-stream",
+        "application/xml; charset=\"utf-16be\"",
+        "application/rdf+xml",
+        "text/xml",
+        "application/xml-external-parsed-entity;",
+        "application/xml; charset=\"utf-16\"",
+        "text/xml; charset=\"utf-16\"",
+        "text/xml; charset=\"utf-8\""
+    ],
+    "SHTTP-Message-Digest-Algorithms": [
+        "('RSA-MD2' | 'RSA-MD5' | 'NIST-SHS'",
+        "orig-optional=RSA-MD5;"
+    ],
+    "Width": [
+        "1920"
+    ],
+    "Subscription-State": [
+        "active"
+    ],
+    "Cache-control": [
+        "private",
+        "max-age=3600, proxy-mustcheck",
+        "max-age=0",
+        "no-cache",
+        "max-age=3600",
+        "max-age=604800",
+        "max-age=86400",
+        "no-cache=\"set-cookie2\""
+    ],
+    "AM-EL": [
+        "95",
+        "86",
+        "0",
+        "size"
+    ],
+    "To": [
+        "<sip:23ec24c5@example.com>",
+        "ietf-types@iana.org",
+        "ietf-digest-aka@iana.org",
+        "<sip:adam@example.org>;tag=57dac993-0b5b-4f04",
+        "<sip:23ec24c5@example.com>;tag=907A953576E6",
+        "<sip:97226491335@example.com>"
+    ],
+    "ISTag": [
+        "\"5BDEEEA9-12E4-2\"",
+        "\"874900-1994-1c02798\"",
+        "\"W3E4R7U9-L2E4-2\""
+    ],
+    "cookies": [
+        "the so-called \"Netscape cookie specification\" [Netscape],"
+    ],
+    "Sec-CH-UA": [
+        "\"Opera\";v=\"81\", \" Not;A Brand\";v=\"99\", \"Chromium\";v=\"95\"",
+        "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"98\", \"Google Chrome\";v=\"98\"",
+        "\"(Not(A:Brand\";v=\"8\", \"Chromium\";v=\"98\"",
+        "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Microsoft Edge\";v=\"96\"",
+        "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Google Chrome\";v=\"96\""
+    ],
+    "Set-Login": [
+        "logged-in",
+        "logged-out"
+    ],
+    "Last-modified": [
+        "Wed, 15 Nov 1995 04:58:08 GMT"
+    ],
+    "RES": [
+        "2.05 Content"
+    ],
+    "Accept-language": [
+        "en-gb, fr"
+    ],
+    "Speculation-Rules": [
+        "\"/rules/prefetch.json\"",
+        "\"/rules/prefetch.json\",\"/rules/prerender.json\""
+    ],
+    "RA": [
+        "registration authority, i.e., an optional system to"
+    ],
+    "SIP-ETag": [
+        "3psbqi1o5633"
+    ],
+    "date": [
+        "<current [HTTP] date>",
+        "Fri, 02 May 2005 01:00:00 GMT"
+    ],
+    "X-OWS-Header": [
+        "Leading and trailing whitespace."
+    ],
+    "Example-Token": [
+        "foo123/456"
+    ],
+    "Proxy-Connection": [
+        "Keep-Alive"
+    ],
+    "SHTTP-Privacy-Domains": [
+        "orig-optional=CMS;",
+        "orig-required=cms;",
+        "('CMS' | 'MOSS')",
+        "recv-optional=MOSS, CMS;"
+    ],
+    "types": [
+        "text/html;q=1.0, type application/postscript;q=0.8"
+    ],
+    "Extension-Field": [
+        "bar       ==>     - END_STREAM"
+    ],
+    "Foo": [
+        "bar                         DATA",
+        "bar                           - END_STREAM"
+    ],
+    "Example-Date-Field": [
+        "\"Sat, 04 May 1996\", \"Wed, 14 Sep 2005\""
+    ],
+    "AEAD": [
+        "AES-128-GCM (see [HPKE], Section 7.3)"
+    ],
+    "Content-DPR": [
+        "2.0"
+    ],
+    "Viewport-Width": [
+        "320"
+    ],
+    "Sec-Fetch-User": [
+        "?1"
+    ],
+    "Type": [
+        "HTTPS",
+        "package",
+        "SVCB",
+        "[the Structured Type of the parameter's value; see"
+    ],
+    "Title": [
+        "Date Not Acceptable",
+        "Oblivious HTTP key configuration not acceptable",
+        "See HTTP Status Code",
+        "[a short description of the problem type]"
+    ],
+    "Methods": [
+        "RESPMOD"
+    ],
+    "am-parts": [
+        "extends list of am-part;"
+    ],
+    "Example-String": [
+        "\"hello world\"",
+        "\"foo",
+        "bar\""
+    ],
+    "Example-Decimal": [
+        "4.5"
+    ],
+    "Sec-CH-UA-Arch": [
+        "\"x86\""
+    ],
+    "name": [
+        "ietf-restconf",
+        "ietf-restconf-monitoring"
+    ],
+    "Downlink": [
+        "1.7"
+    ],
+    "Your-Key-Pattern": [
+        "<key-use>','<pattern-info>",
+        "signing-key, DN-1779,"
+    ],
+    "reference": [
+        "RFC 8040"
+    ],
+    "IKM": [
+        "the shared secret derived using ECDH"
+    ],
+    "encapsulated_header": [
+        "\"Encapsulated: \" encapsulated_list"
+    ],
+    "Classification": [
+        "classifies the problem: performance, security, etc"
+    ],
+    "X-Obs-Fold-Header": [
+        "Obsolete"
+    ],
+    "Attributes": [
+        "A link with a \"timemap\" Relation Type SHOULD use the"
+    ],
+    "X-Forwarded-Ssl": [
+        "on"
+    ],
+    "L": [
+        "32 octets (i.e., the output is the length of the underlying"
+    ],
+    "languages": [
+        "en;q=1.0, fr;q=0.5"
+    ],
+    "Example-Header": [
+        "value, with, lots, of, commas",
+        "of, commas",
+        "value, with, lots"
+    ],
+    "messages": [
+        "\"inbound\" means \"traveling toward the origin server\","
+    ],
+    "Sec-CH-UA-Mobile": [
+        "?0",
+        "?1"
+    ],
+    "Sec-Fetch-Mode": [
+        "no-cors",
+        "cors",
+        "navigate"
+    ],
+    "Pause-At-Body": [
+        "0",
+        "30"
+    ],
+    "Sec-CH-UA-Platform-Version": [
+        "\"10.0.0\""
+    ],
+    "recv": [
+        "endpoint receives this frame"
+    ],
+    "Example-URIs": [
+        "\"http://example.com/a.html,foo\","
+    ],
+    "CA": [
+        "certification authority;"
+    ],
+    "encrypted_message": [
+        "An encrypted message for the Oblivious Target"
+    ],
+    "Assignee": [
+        "IESG <iesg@ietf.org>",
+        "iesg@ietf.org"
+    ],
+    "Meaning": [
+        "General-purpose service binding",
+        "SVCB-compatible type for use with HTTP",
+        "A short description"
+    ],
+    "OPES-Via": [
+        "http://www.cdn.example.com/opes?session=ac79a749f56,"
+    ],
+    "MAC-Info": [
+        "[hex(timeofday)',']<hash-alg>','hex(<hash-data>)','"
+    ],
+    "Example-Dict": [
+        "foo=1",
+        "a=(1 2), b=3, c=4;aa=bb, d=(5 6);valid",
+        "en=\"Applepie\", da=:w4ZibGV0w6ZydGU=:",
+        "bar=2",
+        "rating=1.5, feelings=(joy sadness)",
+        "a=1,    b=2;x=1;y=2,   c=(a   b   c)",
+        "a=1, b=2;x=1;y=2, c=(a   b    c), d",
+        "foo=1, bar=2",
+        "a=?0, b, c; foo=bar"
+    ],
+    "Authentication": [
+        "Basic and Digest Access Authentication\" [43] . Unlike"
+    ],
+    "BCP": [
+        "56                                                    February 2002"
+    ],
+    "last-modified": [
+        "<producedAt [HTTP] date>",
+        "Thu, 01 May 2005 01:00:00 GMT"
+    ],
+    "Example-Dates": [
+        "\"Sat, 04 May 1996\", \"Wed, 14 Sep 2005\""
+    ],
+    "Prearranged-Key-Info": [
+        "<Hdr-Cipher>,<Key>,<Key-ID>"
+    ],
+    "EXAMPLE": [
+        "For example, if the client uses an HTTP proxy for all"
+    ],
+    "Mask": [
+        "1 bit"
+    ],
+    "Event": [
+        "http-monitor"
+    ],
+    "If-none-match": [
+        "\"abc\""
+    ],
+    "SHTTP-Symmetric-Content-Algorithms": [
+        "('DES-CBC' | 'DES-EDE-CBC' |",
+        "orig-optional=DES-CBC;",
+        "recv-optional=DES-CBC,RC2"
+    ],
+    "prefix": [
+        "rcmon",
+        "rc"
+    ],
+    "Sec-CH-UA-Model": [
+        "\"Pixel 3 XL\""
+    ],
+    "Parameter-name": [
+        "signed-receipt-micalg",
+        "signed-receipt-protocol"
+    ],
+    "version": [
+        "The HTTP-Version number of the enclosed message",
+        "The HTTP-Version number of the enclosed messages"
+    ],
+    "URN": [
+        "urn:ietf:params:push",
+        "urn:ietf:params:push:set",
+        "urn:ietf:params:push:receipt"
+    ],
+    "expires": [
+        "<nextUpdate [HTTP] date>",
+        "Sat, 03 May 2005 01:00:00 GMT"
+    ],
+    "Nonce": [
+        "<string>"
+    ],
+    "Supports-Loading-Mode": [
+        "fenced-frame"
+    ],
+    "values": [
+        "\"alternate\", \"related\", \"self\", \"enclosure\", and \"via\".  New"
+    ],
+    "RTT": [
+        "125"
+    ],
+    "Template": [
+        "None"
+    ],
+    "Preservation-Interest-Body": [
+        "0"
+    ],
+    "msgtype": [
+        "The message type -- \"request\" or \"response\". If not"
+    ],
+    "Content-Privacy-Domain": [
+        "('CMS' | 'MOSS')",
+        "CMS"
+    ],
+    "content-type": [
+        "application/ocsp-response"
+    ],
+    "Default": [
+        "0"
+    ],
+    "Masking-key": [
+        "0 or 4 bytes"
+    ],
+    "Example-ByteSequence": [
+        ":cHJldGVuZCB0aGlzIGlzIGJpbmFyeSBjb250ZW50Lg==:"
+    ],
+    "SHTTP-Certificate-Types": [
+        "orig-optional=X.509;",
+        "recv-optional=X.509;",
+        "('X.509')"
+    ],
+    "Updates": [
+        "2048                                               simonstl.com",
+        "2616                                                S. Lawrence",
+        "5545"
+    ],
+    "Example-URI-Field": [
+        "\"http://example.com/a.html,foo\","
+    ],
+    "SourceMap": [
+        "/path/to/file.js.map"
+    ],
+    "Interface": [
+        "MI/FCI",
+        "RI"
+    ],
+    "Service-ID": [
+        "xyztech"
+    ],
+    "Workaround": [
+        "practical workaround for the problem"
+    ],
+    "SG": [
+        "5",
+        "11",
+        "10"
+    ],
+    "salt": [
+        "the authentication secret"
+    ],
+    "Kept": [
+        "0",
+        "65 64"
+    ],
+    "Stop-Receiving-Body": [
+        "0"
+    ],
+    "Tk": [
+        "N"
+    ],
+    "Use": [
+        "description of where and for what the algorithm is used"
+    ],
+    "Example-Field": [
+        "Baz",
+        "Foo, Bar"
+    ],
+    "content-coding": [
+        "extends atom;"
+    ],
+    "Sec-CH-Prefers-Reduced-Transparency": [
+        "\"reduce\""
+    ],
+    "HTTP-Profile": [
+        "extends Feature with {"
+    ],
+    "Content-encoding": [
+        "gzip"
+    ],
+    "H": [
+        "HEADERS frame (with implied CONTINUATIONs)",
+        "HEADERS frame (with implied CONTINUATION frames)"
+    ],
+    "DPR": [
+        "2.0"
+    ],
+    "Idempotent": [
+        "Yes"
+    ],
+    "Proxy-authorization": [
+        "Basic ZWRuYW1vZGU6bm9jYXBlcyE="
+    ],
+    "Number": [
+        "Wire-format numeric identifier (range 0-65535)"
+    ],
+    "Indications": [
+        "states how to detect the presence of this problem"
+    ],
+    "process": [
+        "take out an exclusive lock, read the resource, perform"
+    ],
+    "X-Forwarded-Proto": [
+        "https"
+    ],
+    "Implications": [
+        "the impact of the problem on systems and networks"
+    ],
+    "Opcode": [
+        "4 bits"
+    ],
+    "B": [
+        "{HTTP server / HTTP proxy server / SIP proxy server / SIP UAS}"
+    ],
+    "Running": [
+        "\"sleep 15\""
+    ],
+    "Sec-CH-Prefers-Reduced-Motion": [
+        "\"reduce\""
+    ],
+    "Opt-body-type": [
+        "XML-Policy-Table-1.0"
+    ],
+    "voice": [
+        "+1 505 665 0597"
+    ],
+    "Transfer-Complete": [
+        "asp, bat, exe, com",
+        "asp, bat, exe, com, ole"
+    ],
+    "content-codings": [
+        "extends list of content-coding;"
+    ],
+    "KEM": [
+        "DHKEM(X25519, HKDF-SHA256) (see [HPKE], Section 7.1)"
+    ],
+    "Sec-Browsing-Topics": [
+        "[{configVersion: \"chrome.1\", modelVersion: \"1\", taxonomyVersion: \"1\", topic: 43, version: \"chrome.1:1:1\"}]"
+    ],
+    "Disposition-notification-to": [
+        "xxx@example.com"
+    ],
+    "R": [
+        "RST_STREAM frame"
+    ],
+    "Device-Memory": [
+        "1"
+    ],
+    "credentials": [
+        "\"include\","
+    ],
+    "Content-Text": [
+        "video/mpeg"
+    ],
+    "Transfer-Preview": [
+        "*"
+    ],
+    "SUMMARY": [
+        "Bastille Day"
+    ],
+    "Preference": [
+        "depth-noroot"
+    ],
+    "Attribution-Reporting-Eligible": [
+        "trigger"
+    ],
+    "Service": [
+        "FOO Tech Server 1.0",
+        "XYZ Technology Server 1.0"
+    ],
+    "Sec-CH-Prefers-Color-Scheme": [
+        "\"dark\""
+    ],
+    "ECT": [
+        "2g"
+    ],
+    "elements": [
+        "enough to handle common mistakes by senders that merge"
+    ],
+    "Sec-CH-UA-Bitness": [
+        "\"64\""
+    ],
+    "Mandatory": [
+        "an AlgorithmIdentifier which MUST be supported by"
+    ],
+    "Sec-CH-UA-Full-Version-List": [
+        "\" Not A;Brand\";v=\"99.0.0.0\", \"Chromium\";v=\"98.0.4750.0\", \"Google Chrome\";v=\"98.0.4750.0\""
+    ],
+    "host": [
+        "bar.example.net"
+    ],
+    "encapsulated_list": [
+        "encapsulated_entity |"
+    ],
+    "Conformance": [
+        "This property MAY be defined on any calendar"
+    ],
+    "fax": [
+        "+1 505 665 4939"
+    ],
+    "email": [
+        "rdaniel@lanl.gov"
+    ],
+    "Nk": [
+        "N/A"
+    ],
+    "Nid": [
+        "N/A"
+    ],
+    "Example-Boolean": [
+        "?1"
+    ],
+    "FIN": [
+        "1 bit"
+    ],
+    "X-Forwarded-Protocol": [
+        "https"
+    ],
+    "Delta-base": [
+        "\"abc\""
+    ],
+    "A": [
+        "HTTP client / SIP UA"
+    ],
+    "encapsulated_entity": [
+        "reqhdr | reshdr | reqbody | resbody | optbody"
+    ]
+}

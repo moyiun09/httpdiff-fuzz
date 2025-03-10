@@ -1,0 +1,191 @@
+# Required. The URL address for each target.
+# config.target_urls = ["http://localhost:9051/","http://localhost:9052/" ]
+# Required. The 'Host' header value for each target.
+# config.target_host_headers = ["localhost","localhost"]
+config.target_urls = ["http://192.168.47.133:9001/","http://192.168.47.133:9002/","http://192.168.47.133:9003/","http://192.168.47.133:9004/","http://192.168.47.133:9005/" ]
+config.target_host_headers = ["localhost","localhost","localhost","localhost","localhost"]
+
+config.grammar = {
+    '<start>':
+      ['<request>'],
+
+    '<request>':
+      ['<request-line><base><headers><body>'],
+
+    '<request-line>':
+      ['<method><space><uri><space><http-version><newline>'],
+
+    '<headers>':
+    ['<entity-size-header><some-header>'],
+
+
+    '<uri>':
+      [' /_URI_ '],
+
+    '<http-version>':
+      ['HTTP/0.9', 'HTTP/1.0', 'HTTP/1.1'],
+
+    '<method>':
+      ['GET', 'HEAD', 'POST', 'PUT', 'DELETE', 'CONNECT', 'OPTIONS', 'TRACE' ],
+
+    '<base>':
+      ['Host: _HOST_\r\nConnection:close\r\nX-Request-ID: _REQUEST_ID_\r\n'],
+
+    '<entity-size-header>':
+      ['<Content-Length>', '<Transfer-Encoding>', '<Content-Length><Transfer-Encoding>', '<Transfer-Encoding><Content-Length>'],
+
+    "<some-header>": [
+        "<Content-Length>",
+        "<Range>",
+        "<Upgrade>",
+        "<Host>",
+        "<Transfer-Encoding>",
+        "<Connection>",
+        "<Max-Forwards>",
+        "<Expect>",
+        "<X-header>"
+    ],
+    '<newline>':
+      ['\r\n'],
+
+          '<body>':
+              ['\r\nA\r\nBBBBBBBBBB\r\n0\r\n\r\n' + 100*'B'],
+  
+    '<comma>': [','],
+    '<colon>': [':'],
+    '<semicolon>': [';'],
+    '<space>': [' '],
+    '<start-tag>': ['<'],
+    '<end-tag>': ['>'],
+    '<start-parenthesis>': ['('],
+    '<end-parenthesis>': [')'],
+    '<equals>': ['='],
+    '<boolean>': ['T', 'F'],
+    '<quality>': ['q=1.0', 'q=0.0'],
+
+   "<Content-Length>": [
+        "<Content-Length-name><colon><space><Content-Length-value><newline>"
+    ],
+    "<Content-Length-name>": [
+        "Content-Length"
+    ],
+    "<Range>": [
+        "<Range-name><colon><space><Range-value><newline>"
+    ],
+    "<Range-name>": [
+        "Range"
+    ],
+    "<Upgrade>": [
+        "<Upgrade-name><colon><space><Upgrade-value><newline>"
+    ],
+    "<Upgrade-name>": [
+        "Upgrade"
+    ],
+    "<Host>": [
+        "<Host-name><colon><space><Host-value><newline>"
+    ],
+    "<Host-name>": [
+        "Host"
+    ],
+    "<Transfer-Encoding>": [
+        "<Transfer-Encoding-name><colon><space><Transfer-Encoding-value><newline>"
+    ],
+    "<Transfer-Encoding-name>": [
+        "Transfer-Encoding"
+    ],
+    "<Connection>": [
+        "<Connection-name><colon><space><Connection-value><newline>"
+    ],
+    "<Connection-name>": [
+        "Connection"
+    ],
+    "<Max-Forwards>": [
+        "<Max-Forwards-name><colon><space><Max-Forwards-value><newline>"
+    ],
+    "<Max-Forwards-name>": [
+        "Max-Forwards"
+    ],
+    "<Expect>": [
+        "<Expect-name><colon><space><Expect-value><newline>"
+    ],
+    "<Expect-name>": [
+        "Expect"
+    ],
+    "<Content-Length-value>": [
+        "80",
+        "60",
+        "40"
+    ],
+    "<Range-value>": [
+        "bytes=7433802-",
+        "bytes=1234567-999999999999",
+        "bytes=900-",
+        "bytes=1020000-999999999999",
+        "bytes=0-",
+        "bytes=0-999999999999",
+        "bytes=0-99",
+        "bytes=1230000-999999999999"
+    ],
+    "<Upgrade-value>": [
+        "websocket, IRC/6.9, RTA/x11",
+        "HTTP/2.0",
+        "h2c",
+        "HTTP/3.0",
+        "connect-udp",
+        "HTTP/2.0, SHTTP/1.3, IRC/6.9, RTA/x11",
+        "connect-ip",
+        "TLS/1.0, HTTP/1.1",
+        "websocket",
+        "TLS/1.0"
+    ],
+    "<Host-value>": [
+        "*",
+        "svc.example.com",
+        "origin.example.com"
+    ],
+    "<Transfer-Encoding-value>": [
+        "chunked         + END_HEADERS",
+        "gzip, chunked",
+        "chunked"
+    ],
+    "<Connection-value>": [
+        "C-Ext",
+        "Keep-Alive",
+        "Upgrade, HTTP2-Settings",
+        "close",
+        "Meter",
+        "Upgrade",
+        "meter",
+        "C-Man, 14-Credentials",
+        "keep-alive",
+        "upgrade"
+    ],
+    "<Max-Forwards-value>": [
+        "0",
+        "10"
+    ],
+    "<Expect-value>": [
+        "100-continue"
+    ],
+    "<X-header>":["<X-header-name><colon><space><X-header-value><newline>"],
+    "<X-header-name>":["X-header"],
+    "<X-header-value>":["foo"],
+}
+
+# Required. Minimum number of mutations to be done
+config.min_num_mutations = 1
+
+# Required. Maximum number of mutations to be done 
+config.max_num_mutations = 1
+
+# Required. The mutation type for each symbol to be mutated. Two mutation types are supported: tree (0) and string (1).  
+config.symbol_mutation_types = {'<request-line>': 0,'<method>': 1, '<space>': 1, '<separator>': 1, '<http-version>': 1, '<newline>': 1,'<Content-Length-name>':1,'<Content-Length-value>': 1,'<Transfer-Encoding-name>':1,'<Transfer-Encoding-value>':1} 
+
+# Required if string mutations are used. The character pool to choose from for insert_random_char and replace_random_char operations.
+config.char_pool = ['\x00', '\x01', '\x02', '\x03', '\x04', '\x05', '\x06', '\x07', '\x08', '\t', '\n', '\x0b', '\x0c', '\r', '\x0e', '\x0f', '\x10', '\x11', '\x12', '\x13', '\x14', '\x15', '\x16', '\x17', '\x18', '\x19', '\x1a', '\x1b', '\x1c', '\x1d', '\x1e', '\x1f', ' ', '!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ':', ';', '<', '=', '>', '?', '@', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '[', '\\', ']', '^', '_', '`', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '{', '|', '}', '~', '\x7f']
+
+# Not required. If not specified, the set of children nodes will be used as the pool.
+# config.symbol_pool = ['<request-line>', '<method>', '<space>', '<protocol>', '<separator>', '<version>', '<newline>','<Host-name>','<Content-Length-name>','<Range-name>','<Transfer-Encoding-name>']
+
+config.fuff_enable = False
+config.symbol_fuff_types = {'<uri>':1 ,'<method>':1,'<protocol>':1,'<Host>':2,'<Host-name>':1,'<Content-Length>':2,'<Content-Length-name>':1,'<Content-Length-value>': 0,'<Range>':2,'<Range-name>':1,'<Transfer-Encoding>':2,'<Transfer-Encoding-name>':1} 

@@ -1,0 +1,71 @@
+{
+    "<start>": [
+        "<request>"
+    ],
+    "<request>": [
+        "<request-line><headers><newline><the-rest>"
+    ],
+    "<request-line>": [
+        "<method><space><uri><space><http_version><newline>"
+    ],
+    "<space>": [
+        " "
+    ],
+    "<method>": [
+        "GET",
+        "DELETE",
+        "PUT",
+        "CONNECT",
+        "POST",
+        "HEAD",
+        "MOVE",
+        "COPY",
+        "OPTIONS",
+        "PATCH"
+    ],
+    "<uri>": [
+        "/",
+        "/_URI_",
+        "*",
+        "http://example@__HOST__/",
+        "__HOST__",
+        "/index.php",
+        "/index.html",
+        "http://__HOST__/",
+        "/admin"
+    ],
+    "<http_version>": [
+        "HTTP/1.0",
+        "HTTP/1.1"
+    ],
+    "<separator>":[
+        "/"
+    ],
+    "<version>":[
+        "1.0",
+        "1.1",
+        "0.9",
+        "2",
+        "1.X"
+    ],
+    "<protocol>":[
+        "HTTP",
+        "ws"
+    ],
+    
+    "<newline>": [
+        "\r\n"
+    ],
+    "<headers>":[
+        "<base>"
+    ],
+    "<base>": [
+        "Host: _HOST_\r\nConnection:close\r\nX-Request-ID: _REQUEST_ID_\r\n"
+    ],
+    "<the-rest>": [
+        "<newline><request-body>"
+    ],
+    "<request-body>":[
+        "BBBB"
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "<start>": [
+        "<request>"
+    ],
+    "<request>": [
+        "<request-line><newline><base><newline><request-body>"
+    ],
+    "<request-line>": [
+        "<method><space><uri><space><http_version>"
+    ],
+    "<space>": [
+        " "
+    ],
+    "<method>": [
+        "BIND",
+        "UPDATE",
+        "REPORT",
+        "GET",
+        "UNBIND",
+        "DELETE",
+        "CHECKIN",
+        "SEARCH",
+        "MERGE",
+        "PUT",
+        "CONNECT",
+        "LOCK",
+        "POST",
+        "UPDATEREDIRECTREF",
+        "LABEL",
+        "REBIND",
+        "PROPPATCH",
+        "UNLOCK",
+        "CHECKOUT",
+        "HEAD",
+        "MKREDIRECTREF",
+        "MKWORKSPACE",
+        "MOVE",
+        "COPY",
+        "MKCALENDAR",
+        "OPTIONS",
+        "PROPFIND",
+        "UNCHECKOUT",
+        "MKCOL",
+        "PATCH",
+        "MKACTIVITY"
+    ],
+    "<uri>": [
+        "",
+        "/",
+        "/_URI_",
+        "*",
+        "http://example@_HOST_/",
+        "_HOST_",
+        "/index.php",
+        "/index.html",
+        "http://_HOST_/",
+        "/admin"
+    ],
+    "<http_version>": [
+        "HTTP/3",
+        "HTTP/2",
+        "HTTP/X",
+        "HTTP/1.X",
+        "HTTP/0.9",
+        "HTTP/1.0",
+        "HTTP/1.1"
+
+    ],
+    "<protocol>": [
+        "HTTP"
+    ],
+
+    "<newline>": [
+        "\r\n"
+    ],
+    "<base>": [
+        "Host: _HOST_\r\nConnection:close\r\nX-Request-ID: _REQUEST_ID_\r\n"
+    ],
+    "<the-rest>": [
+        "<request-body>"
+    ],
+    "<request-body>":[
+        "BBBB"
+    ]
+}

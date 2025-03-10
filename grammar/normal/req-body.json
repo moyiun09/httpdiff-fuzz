@@ -1,0 +1,20 @@
+{
+    "<start>": [
+        "<request>"
+    ],
+    "<request>": [
+        "<request-line><newline><base><request-headers><newline><request-body>"
+    ],
+    "<request-line>": [
+        "GET / HTTP/1.1"
+    ],
+    "<space>": [
+        " "
+    ],
+    "<base>": [
+        "Host: __HOST__\r\nX-Request-ID: _REQUEST_ID_\r\n"
+    ],
+    "<request-headers>": [
+        "<entity-header><newline><header><newline>"
+    ]
+}

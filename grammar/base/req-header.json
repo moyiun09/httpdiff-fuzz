@@ -1,0 +1,51 @@
+{
+    "<start>": [
+        "<request>"
+    ],
+    "<request>": [
+        "<request-line><newline><header><newline><newline><request-body>"
+    ],
+    "<request-line>": [
+        "GET / HTTP/1.1",
+        "GET / HTTP/1.0",
+        "GET / HTTP/0.9",
+        "GET /",
+        "GET / HTTP/1.X"
+    ],
+    "<space>": [
+        " "
+    ],
+    "<colon>": [
+        ":"
+    ],
+    "<method>":[
+        "GET"
+    ],
+    "<version>":[
+        "1.1"
+    ],
+    "<protocol>":[
+        "http",
+        "HTTP",
+        "ws"
+    ],
+    "<separator>":[
+        "/",
+        ";",
+        ","
+    ],
+
+    "<newline>": [
+        "\r\n"
+    ],
+    "<request-body>": [
+        "\r\n",
+        "123456789",
+        "0\r\n1\r\n2\r\n",
+        "2\r\n1\r\n0\r\n",
+        "1;tailer=A\r\n0\r\n123456789"
+    ],
+    "<header>":[
+        "__HEADER_NAME__: __HEADER_VALUE__"
+    ]
+}
