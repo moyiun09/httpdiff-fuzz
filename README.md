@@ -1,5 +1,5 @@
 ## httpdiff-fuzz
-httpdiff-fuzz, developed based on the prototype system t-reqs, is used to test the semantic inconsistency of the HTTP protocol.
+httpdiff-fuzz, developed based on the prototype system [t-reqs](https://github.com/bahruzjabiyev/t-reqs), is used to test the semantic inconsistency of the HTTP protocol.
 ### Overall system architecture
 ![System architecture diagram](./bg.png)
 
@@ -39,3 +39,6 @@ The system does not support other working modes
 From the difference information, it can be determined whether there is a problem with the behavior of server processing, but there is currently no good classification method to find specific semantic inconsistency problems from the difference information.
 Locate the difference in specific fields, such as the difference in the processing of Content-Length or Transfer-Encoding headers to find possible request smuggling problems.
 Further improvements will be made in the future.
+
+### License
+httpdiff-fuzz is licensed under MIT license.
